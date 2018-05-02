@@ -1,0 +1,1 @@
+{"printerMachineList":"Przypisanie maszyna/drukarka","removeConfirmationMessage":"Czy na pewno chcesz usunąć {COUNT, plural, one{to połączenie maszyna/drukarka} other{te połączenia maszyn/drukarek} }?","savedSuccessfully":"Połączenie maszyna/drukarka zostało zaktualizowane.","validation.documentMachineIsNotUnique":"Ta maszyna ma już zdefiniowany ten dokument."}

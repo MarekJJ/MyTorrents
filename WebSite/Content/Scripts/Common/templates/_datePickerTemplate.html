@@ -1,0 +1,11 @@
+﻿<div class="input-group date-picker" style="margin-bottom:5px"
+     ng-class="{'invalid': formCtrl[name].$invalid && formCtrl[name].$touched}" ng-if="show">
+    <input class="form-control form-input" name="{{ name }}"
+           datetimepicker options="dateFieldOptions"
+           ng-model="model[field]"
+           ng-disabled="disabled"
+           ng-required="required" />
+    <span class="input-group-addon">
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+    </span>
+</div>

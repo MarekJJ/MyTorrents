@@ -1,0 +1,17 @@
+{
+  "name": "website",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Marerk Jedrysiak <marek.jedrysiak@dsr.com.pl>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,127 @@
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\ApplicationInsights.config
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\roslyn\csc.exe
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\roslyn\System.Collections.Immutable.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\roslyn\System.Reflection.Metadata.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\roslyn\vbc.exe
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\roslyn\VBCSCompiler.exe
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\roslyn\VBCSCompiler.exe.config
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\WebSite.dll.config
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\WebSite.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\WebSite.pdb
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.AI.Agent.Intercept.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.AI.DependencyCollector.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.AI.Web.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.AI.WindowsServer.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.ApplicationInsights.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.Web.Infrastructure.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\MvcSiteMapProvider.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\MvcSiteMapProvider.WebActivator.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\System.Web.Helpers.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\System.Web.Mvc.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\System.Web.Razor.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\System.Web.Webpages.Deployment.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\System.Web.Webpages.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\System.Web.Webpages.Razor.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\WebActivatorEx.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.Web.Administration.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.AI.DependencyCollector.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.AI.Web.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.AI.WindowsServer.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.ApplicationInsights.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\MvcSiteMapProvider.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\MvcSiteMapProvider.WebActivator.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\System.Web.Razor.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\System.Web.Webpages.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\System.Web.Webpages.Deployment.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\System.Web.Webpages.Razor.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\System.Web.Helpers.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\System.Web.Mvc.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\obj\Debug\WebSite.csprojResolveAssemblyReference.cache
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\obj\Debug\WebSite.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\obj\Debug\WebSite.pdb
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.Practices.ServiceLocation.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.Practices.Unity.Configuration.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.Practices.Unity.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.Practices.Unity.Mvc.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.Practices.ServiceLocation.pdb
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.Practices.ServiceLocation.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.Practices.Unity.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.Practices.Unity.Configuration.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.Practices.Unity.Mvc.xml
+c:\Users\maj\documents\visual studio 2015\Projects\WebSite\WebSite\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\ApplicationInsights.config
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\roslyn\csc.exe
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\roslyn\vbc.exe
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\roslyn\VBCSCompiler.exe
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\WebSite.dll.config
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\WebSite.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\WebSite.pdb
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.AI.Web.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.ApplicationInsights.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.Practices.Unity.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\MvcSiteMapProvider.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\MvcSiteMapProvider.WebActivator.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\System.Web.Helpers.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\System.Web.Mvc.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\System.Web.Razor.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\System.Web.Webpages.Deployment.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\System.Web.Webpages.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\System.Web.Webpages.Razor.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\WebActivatorEx.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.Web.Administration.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.AI.Web.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.ApplicationInsights.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.Practices.Unity.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\MvcSiteMapProvider.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\MvcSiteMapProvider.WebActivator.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\System.Web.Razor.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\System.Web.Webpages.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\System.Web.Webpages.Deployment.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\System.Web.Webpages.Razor.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\System.Web.Helpers.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\System.Web.Mvc.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\obj\Debug\WebSite.csprojResolveAssemblyReference.cache
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\obj\Debug\WebSite.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\obj\Debug\WebSite.pdb
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\obj\Debug\WebSite.csproj.GenerateResource.Cache
