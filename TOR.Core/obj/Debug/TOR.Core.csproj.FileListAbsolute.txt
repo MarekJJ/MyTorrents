@@ -1,0 +1,5 @@
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Core\bin\Debug\TOR.Core.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Core\bin\Debug\TOR.Core.pdb
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Core\obj\Debug\TOR.Core.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Core\obj\Debug\TOR.Core.pdb
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Core\obj\Debug\TOR.Core.csprojResolveAssemblyReference.cache

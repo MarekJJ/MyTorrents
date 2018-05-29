@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="boolValue" xml:space="preserve">
+    <value>Bool value</value>
+  </data>
+  <data name="code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="configurationParametersList" xml:space="preserve">
+    <value>Configuration parameters list</value>
+  </data>
+  <data name="decimalValue" xml:space="preserve">
+    <value>Decimal value</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="parameterName" xml:space="preserve">
+    <value>Parameter name</value>
+  </data>
+  <data name="parameterType" xml:space="preserve">
+    <value>Parameter type</value>
+  </data>
+  <data name="selectedValue" xml:space="preserve">
+    <value>Selected value</value>
+  </data>
+  <data name="ForceCloseMachineActivity" xml:space="preserve">
+    <value>Force close Machine Activity</value>
+  </data>
+  <data name="ParallelEmpActivityNotAllowed" xml:space="preserve">
+    <value>Parallel work</value>
+  </data>
+  <data name="RegisteringQtyInTerminalIsAllowed" xml:space="preserve">
+    <value>Registering qty in terminal is allowed</value>
+  </data>
+  <data name="TerminalIdleTimout" xml:space="preserve">
+    <value>TerminalIdleTimout</value>
+  </data>
+  <data name="TerminalCloseAllMachineActivity" xml:space="preserve">
+    <value>Way to close all machine activities</value>
+  </data>
+  <data name="TerminalBrigadeButtonIsAvailable" xml:space="preserve">
+    <value>Availability of brigade button in terminal</value>
+  </data>
+  <data name="TerminalBreakButtonIsAvailable" xml:space="preserve">
+    <value>Availability of break button in terminal</value>
+  </data>
+  <data name="TerminalNonProductiveButtonIsAvailable" xml:space="preserve">
+    <value>Availability of non productive button in terminal</value>
+  </data>
+  <data name="PortalMassWOStatusChange" xml:space="preserve">
+    <value>Portal mass WO status change</value>
+  </data>
+  <data name="PortalMassOperationStatusChange" xml:space="preserve">
+    <value>change of status of operation for all workers which taking a part in this operation. </value>
+  </data>
+  <data name="PortalMassStatusChangeQtyAdjustment" xml:space="preserve">
+    <value>Portal mass status change qty adjustment</value>
+  </data>
+  <data name="PortalMassQtyExceedAllowable" xml:space="preserve">
+    <value>Portal mass qty exceed allowable</value>
+  </data>
+  <data name="TerminalOrderOperationScanChange" xml:space="preserve">
+    <value>Terminal order operation scan change</value>
+  </data>
+  <data name="TerminalWorkActivityChoice" xml:space="preserve">
+    <value>Terminal work activity choice</value>
+  </data>
+  <data name="TerminalEndWorkFrozenTime" xml:space="preserve">
+    <value>Terminal end work frozen time</value>
+  </data>
+  <data name="TerminalBarCodeSeparator" xml:space="preserve">
+    <value>Terminal bar code separator</value>
+  </data>
+  <data name="PortalPermissionToChangeDate" xml:space="preserve">
+    <value>Portal permission to change date</value>
+  </data>
+  <data name="TerminalCloseActivityButtonIsAvailable" xml:space="preserve">
+    <value>Terminal close activity button availability</value>
+  </data>
+  <data name="TerminalShiftDelta" xml:space="preserve">
+    <value>Terminal shift delta</value>
+  </data>
+  <data name="TerminalMaxShiftTime" xml:space="preserve">
+    <value>Terminal max shift time</value>
+  </data>
+  <data name="TerminalMaxShiftTimeCloseMode" xml:space="preserve">
+    <value>Terminal max shift time close mode</value>
+  </data>
+  <data name="TerminalCloseAllMachineActivity1" xml:space="preserve">
+    <value>Not possible to close activity by button</value>
+  </data>
+  <data name="TerminalCloseAllMachineActivity2" xml:space="preserve">
+    <value>Close of activities without questioning</value>
+  </data>
+  <data name="TerminalCloseAllMachineActivity3" xml:space="preserve">
+    <value>Close of activities with questioning</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="configurationParameter" xml:space="preserve">
+    <value>Configuration parameter</value>
+  </data>
+  <data name="text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="TerminalWorkActivityChoice1" xml:space="preserve">
+    <value>After start activity redirecting to list.</value>
+  </data>
+  <data name="TerminalWorkActivityChoice2" xml:space="preserve">
+    <value>After start activity automatically logging out.</value>
+  </data>
+  <data name="TerminalWorkActivityChoice3" xml:space="preserve">
+    <value>After start activity coming up validation window then automatically redirecting to list.</value>
+  </data>
+  <data name="TerminalWorkActivityChoice4" xml:space="preserve">
+    <value>After start activity coming up validation window then automatically logging out.</value>
+  </data>
+  <data name="TerminalMaxShiftTimeCloseMode0" xml:space="preserve">
+    <value>Worker have to finished shift himself and is not able to start new activity on this shift.</value>
+  </data>
+  <data name="TerminalMaxShiftTimeCloseMode1" xml:space="preserve">
+    <value>Automatically finishing shift with actual time.</value>
+  </data>
+  <data name="textValue" xml:space="preserve">
+    <value>Text value</value>
+  </data>
+  <data name="false" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="true" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="TerminalCloseAllMachineActivity4" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="TerminalOrderOperationScanChange1" xml:space="preserve">
+    <value>Many orders.</value>
+  </data>
+  <data name="TerminalOrderOperationScanChange2" xml:space="preserve">
+    <value>Single order.</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="TerminalPrintLabel" xml:space="preserve">
+    <value>Terminal print label availbility button</value>
+  </data>
+  <data name="PortalMachineMappingToExternalCode" xml:space="preserve">
+    <value>Machine mapping to external code</value>
+  </data>
+  <data name="PortalMachineMappingToExternalCode0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="PortalMachineMappingToExternalCode1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+</root>

@@ -11,7 +11,7 @@ namespace WebSite
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            //MvcSiteMapProvider.DI.Composer.Compose();
+           // MvcSiteMapProvider.DI.Composer.Compose();
         }
     }
 }

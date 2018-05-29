@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{733C76DA-82AE-4C8C-8C1C-280D01A124DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TOR.Resorces</RootNamespace>
+    <AssemblyName>TOR.Resorces</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrontEndTranslations\Activities\ActivityTimeCorrection.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Activities\OpenedActivities.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Administration\Break.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Administration\ConfigurationParameters.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Administration\Functions.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Administration\PowerBiDefinition.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Administration\ReportDefinitions.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Administration\UserFunctions1.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Administration\WorkerBreak.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Common\Common.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Common\Domain.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Common\Login.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Common\Site.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Corrections\Corrections.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Machines\Department.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Machines\Machine.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Machines\MachineGroup.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Machines\Productionline.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Parts\AttributeTypes.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Parts\Part.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Parts\PartAttribute.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Parts\PartAttributeSet.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Printers\Printdocument.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Printers\Printer.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Printers\Printermachine.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Printers\Printform.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Statuses\RejectReason.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Statuses\RoutingStatus.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Statuses\RoutingStatusChange.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Statuses\Status.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Statuses\StatusReason.Designer.cs" />
+    <Compile Include="FrontEndTranslations\Statuses\WorkOrderStatus.Designer.cs" />
+    <Compile Include="FrontEndTranslations\UserManagement\UserRoles.Designer.cs" />
+    <Compile Include="FrontEndTranslations\UserManagement\Users.Designer.cs" />
+    <Compile Include="FrontEndTranslations\UserManagement\Workers.Designer.cs" />
+    <Compile Include="FrontEndTranslations\WorkOrders\Repetitiveschedules.Designer.cs" />
+    <Compile Include="FrontEndTranslations\WorkOrders\Routing.Designer.cs" />
+    <Compile Include="FrontEndTranslations\WorkOrders\Technology.Designer.cs" />
+    <Compile Include="FrontEndTranslations\WorkOrders\TechnologyTemplate.Designer.cs" />
+    <Compile Include="FrontEndTranslations\WorkOrders\Workcenter.Designer.cs" />
+    <Compile Include="FrontEndTranslations\WorkOrders\Workorder.Designer.cs" />
+    <Compile Include="FrontEndTranslations\WorkShifts\ShiftEntries.Designer.cs" />
+    <Compile Include="FrontEndTranslations\WorkShifts\ShiftTemplates.Designer.cs" />
+    <Compile Include="FrontEndTranslations\WorkShifts\WorkTime.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrontEndTranslations\Activities\ActivityTimeCorrection.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Activities\ActivityTimeCorrection.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Activities\OpenedActivities.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Activities\OpenedActivities.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Administration\Break.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Administration\Break.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Administration\ConfigurationParameters.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Administration\ConfigurationParameters.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Administration\Functions.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Administration\Functions.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Administration\PowerBiDefinition.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Administration\PowerBiDefinition.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Administration\ReportDefinitions.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Administration\ReportDefinitions.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Administration\UserFunctions.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Administration\userFunctions.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Administration\WorkerBreak.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Administration\WorkerBreak.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Common\Common.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Common\Common.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Common\Domain.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Common\Domain.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Common\Login.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Common\Login.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Common\Site.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Common\Site.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Corrections\Corrections.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Corrections\Corrections.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Machines\Department.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Machines\Department.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Machines\Machine.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Machines\Machine.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Machines\MachineGroup.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Machines\MachineGroup.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Machines\Productionline.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Machines\Productionline.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Parts\AttributeTypes.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Parts\AttributeTypes.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Parts\Part.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Parts\Part.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Parts\PartAttribute.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Parts\PartAttribute.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Parts\PartAttributeSet.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Parts\PartAttributeSet.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Printers\Printdocument.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Printers\Printdocument.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Printers\Printer.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Printers\Printer.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Printers\Printermachine.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Printers\Printermachine.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Printers\Printform.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Printers\Printform.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\ReportDefinitions\ReportDefinitions.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\ReportDefinitions\ReportDefinitions.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Statuses\RejectReason.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Statuses\RejectReason.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Statuses\RoutingStatus.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Statuses\RoutingStatus.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Statuses\RoutingStatusChange.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Statuses\RoutingStatusChange.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Statuses\Status.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Statuses\Status.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Statuses\StatusReason.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Statuses\StatusReason.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Statuses\WorkOrderStatus.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\Statuses\WorkOrderStatus.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\UserManagement\UserRoles.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\UserManagement\UserRoles.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\UserManagement\Users.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\UserManagement\Users.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\UserManagement\Workers.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\UserManagement\Workers.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkOrders\Repetitiveschedules.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkOrders\Repetitiveschedules.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkOrders\Routing.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkOrders\Routing.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkOrders\Technology.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkOrders\Technology.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkOrders\TechnologyTemplate.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkOrders\TechnologyTemplate.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkOrders\Workcenter.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkOrders\Workcenter.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkOrders\Workorder.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkOrders\Workorder.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkShifts\ShiftEntries.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkShifts\ShiftEntries.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkShifts\ShiftTemplates.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkShifts\ShiftTemplates.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkShifts\WorkTime.pl-PL.resx" />
+    <EmbeddedResource Include="FrontEndTranslations\WorkShifts\WorkTime.resx" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,12 @@
+{
+  "main-Css": [
+    "./Content/Styles/Common.css"
+
+  ],
+
+  "main-Js": [
+
+    "./Content/vendor/angular-animate/angular-animate.js"
+
+  ]
+}

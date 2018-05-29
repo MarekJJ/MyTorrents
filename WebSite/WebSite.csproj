@@ -44,6 +44,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="B4BCore, Version=1.0.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bundler4Bower.1.0.0\lib\net451\B4BCore.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -105,6 +109,10 @@
       <HintPath>..\packages\MvcSiteMapProvider.MVC5.4.6.22\lib\net45\MvcSiteMapProvider.WebActivator.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -150,60 +158,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Dist\css\dsrToolkit_login-Css.min.css" />
-    <Content Include="Content\Dist\css\login-Css.min.css" />
     <Content Include="Content\Dist\css\main-Css.min.css" />
-    <Content Include="Content\Dist\js\activities\activityTimeCorrection-Js.min.js" />
-    <Content Include="Content\Dist\js\activities\openedActivities-Js.min.js" />
-    <Content Include="Content\Dist\js\administration\break-Js.min.js" />
-    <Content Include="Content\Dist\js\administration\configurationParameters-Js.min.js" />
-    <Content Include="Content\Dist\js\administration\functions-Js.min.js" />
-    <Content Include="Content\Dist\js\administration\numberSeriesList-Js.min.js" />
-    <Content Include="Content\Dist\js\administration\powerBiDefinition-Js.min.js" />
-    <Content Include="Content\Dist\js\administration\reportDefinitions-Js.min.js" />
-    <Content Include="Content\Dist\js\administration\userFunctions-Js.min.js" />
-    <Content Include="Content\Dist\js\administration\userPowerBiDefinition-Js.min.js" />
-    <Content Include="Content\Dist\js\administration\workerBreak-Js.min.js" />
-    <Content Include="Content\Dist\js\common-Js.min.js" />
-    <Content Include="Content\Dist\js\companies\domainList-Js.min.js" />
-    <Content Include="Content\Dist\js\companies\siteList-Js.min.js" />
-    <Content Include="Content\Dist\js\corrections\quantityList-Js.min.js" />
-    <Content Include="Content\Dist\js\dsrtoolkit_core-Js.min.js" />
-    <Content Include="Content\Dist\js\dsrToolkit_login-Js.min.js" />
-    <Content Include="Content\Dist\js\dsrToolkit_userRoles-Js.min.js" />
-    <Content Include="Content\Dist\js\dsrToolkit_users-Js.min.js" />
-    <Content Include="Content\Dist\js\dsrToolkit_workers-Js.min.js" />
-    <Content Include="Content\Dist\js\login-Js.min.js" />
     <Content Include="Content\Dist\js\main-Js.min.js" />
-    <Content Include="Content\Dist\js\printer\printDocumentsList-Js.min.js" />
-    <Content Include="Content\Dist\js\printer\printerMachinesList-Js.min.js" />
-    <Content Include="Content\Dist\js\printer\printersList-Js.min.js" />
-    <Content Include="Content\Dist\js\printer\printFormsList-Js.min.js" />
-    <Content Include="Content\Dist\js\statuses\rejectReason-Js.min.js" />
-    <Content Include="Content\Dist\js\statuses\routingStatus-Js.min.js" />
-    <Content Include="Content\Dist\js\statuses\routingStatusChange-Js.min.js" />
-    <Content Include="Content\Dist\js\statuses\status-Js.min.js" />
-    <Content Include="Content\Dist\js\statuses\statusReason-Js.min.js" />
-    <Content Include="Content\Dist\js\statuses\workOrderStatus-Js.min.js" />
-    <Content Include="Content\Dist\js\workcenter\departmentsList-Js.min.js" />
-    <Content Include="Content\Dist\js\workcenter\machineGroups-Js.min.js" />
-    <Content Include="Content\Dist\js\workcenter\machineMachineGroups-Js.min.js" />
-    <Content Include="Content\Dist\js\workcenter\machinesList-Js.min.js" />
-    <Content Include="Content\Dist\js\workcenter\productionLinesList-Js.min.js" />
-    <Content Include="Content\Dist\js\workcenter\workCentersList-Js.min.js" />
-    <Content Include="Content\Dist\js\workorder\partAttributes-Js.min.js" />
-    <Content Include="Content\Dist\js\workorder\partAttributeSets-Js.min.js" />
-    <Content Include="Content\Dist\js\workorder\partsList-Js.min.js" />
-    <Content Include="Content\Dist\js\workorder\repetitiveScheduleList-Js.min.js" />
-    <Content Include="Content\Dist\js\workorder\routing-Js.min.js" />
-    <Content Include="Content\Dist\js\workorder\technologyTemplateList-Js.min.js" />
-    <Content Include="Content\Dist\js\workorder\workOrdersList-Js.min.js" />
-    <Content Include="Content\Dist\js\workShifts\shiftEntries-Js.min.js" />
-    <Content Include="Content\Dist\js\workShifts\shiftTemplates-Js.min.js" />
-    <Content Include="Content\Dist\js\workShifts\workTime-Js.min.js" />
-    <Content Include="Content\Images\favicon.ico" />
     <Content Include="Content\Scripts\Common\common.module.js" />
     <Content Include="Content\Scripts\Common\directives\datePicker.directive.js" />
     <Content Include="Content\Scripts\Common\directives\defaultListView.directive.js" />
@@ -252,10 +208,7 @@
     <Content Include="Content\Scripts\Layout\sidebarMenu.directive.js" />
     <Content Include="Content\Scripts\Login\login.controller.js" />
     <Content Include="Content\Scripts\Login\login.module.js" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Content\Styles\Common\Common.css" />
-    <Content Include="Content\Styles\CustomStyles.css" />
-    <Content Include="Content\Styles\Login.css" />
+    <Content Include="Content\Styles\Common.css" />
     <Content Include="Content\Vendor\angular-animate\angular-animate.js" />
     <Content Include="Content\Vendor\angular-bootstrap-colorpicker\css\colorpicker.css" />
     <Content Include="Content\Vendor\angular-bootstrap-colorpicker\img\alpha.png" />
@@ -323,57 +276,6 @@
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="package.json" />
     <Content Include="bower.json" />
-    <Content Include="Content\Dist\i18n\locale-en.json" />
-    <Content Include="Content\Dist\i18n\locale-pl.json" />
-    <Content Include="Content\Dist\js\activities\activityTimeCorrection-Js.min.js.map" />
-    <Content Include="Content\Dist\js\activities\openedActivities-Js.min.js.map" />
-    <Content Include="Content\Dist\js\administration\break-Js.min.js.map" />
-    <Content Include="Content\Dist\js\administration\configurationParameters-Js.min.js.map" />
-    <Content Include="Content\Dist\js\administration\functions-Js.min.js.map" />
-    <Content Include="Content\Dist\js\administration\numberSeriesList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\administration\powerBiDefinition-Js.min.js.map" />
-    <Content Include="Content\Dist\js\administration\reportDefinitions-Js.min.js.map" />
-    <Content Include="Content\Dist\js\administration\userFunctions-Js.min.js.map" />
-    <Content Include="Content\Dist\js\administration\userPowerBiDefinition-Js.min.js.map" />
-    <Content Include="Content\Dist\js\administration\workerBreak-Js.min.js.map" />
-    <Content Include="Content\Dist\js\common-Js.min.js.map" />
-    <Content Include="Content\Dist\js\companies\domainList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\companies\siteList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\corrections\quantityList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\dsrtoolkit_core-Js.min.js.map" />
-    <Content Include="Content\Dist\js\dsrToolkit_login-Js.min.js.map" />
-    <Content Include="Content\Dist\js\dsrToolkit_userRoles-Js.min.js.map" />
-    <Content Include="Content\Dist\js\dsrToolkit_users-Js.min.js.map" />
-    <Content Include="Content\Dist\js\dsrToolkit_workers-Js.min.js.map" />
-    <Content Include="Content\Dist\js\login-Js.min.js.map" />
-    <Content Include="Content\Dist\js\main-Js.min.js.map" />
-    <Content Include="Content\Dist\js\printer\printDocumentsList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\printer\printerMachinesList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\printer\printersList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\printer\printFormsList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\statuses\rejectReason-Js.min.js.map" />
-    <Content Include="Content\Dist\js\statuses\routingStatus-Js.min.js.map" />
-    <Content Include="Content\Dist\js\statuses\routingStatusChange-Js.min.js.map" />
-    <Content Include="Content\Dist\js\statuses\status-Js.min.js.map" />
-    <Content Include="Content\Dist\js\statuses\statusReason-Js.min.js.map" />
-    <Content Include="Content\Dist\js\statuses\workOrderStatus-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workcenter\departmentsList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workcenter\machineGroups-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workcenter\machineMachineGroups-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workcenter\machinesList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workcenter\productionLinesList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workcenter\workCentersList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workorder\partAttributes-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workorder\partAttributeSets-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workorder\partsList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workorder\repetitiveScheduleList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workorder\routing-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workorder\technologyTemplateList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workorder\workOrdersList-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workShifts\shiftEntries-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workShifts\shiftTemplates-Js.min.js.map" />
-    <Content Include="Content\Dist\js\workShifts\workTime-Js.min.js.map" />
-    <Content Include="Content\Styles\CustomStyles.less" />
     <Content Include="Content\Vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\Vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\Vendor\bootstrap\fonts\glyphicons-halflings-regular.woff" />
@@ -385,6 +287,11 @@
     <Content Include="Content\Vendor\font-awesome\fonts\fontawesome-webfont.woff" />
     <Content Include="Content\Vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
     <Content Include="Content\Vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="App_Data\BundlerForBower.json" />
+    <Content Include="Content\Dist\js\main-Js.min.js.map" />
+    <Content Include="Content\Styles\Common.less" />
+    <Content Include="Content\Styles\_tables.less" />
+    <Content Include="Content\Styles\_sideBarMenu.less" />
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
@@ -393,6 +300,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\BowerBundlerHelper.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="App_Start\UnityMvcActivator.cs" />
@@ -400,11 +308,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\Helpers\BundlesHelper.cs" />
+    <Compile Include="Infrastructure\Helpers\Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -428,6 +340,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="scripts\jquery-1.10.2.min.map" />
+    <Content Include="bundles.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -436,104 +349,38 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <Folder Include="Content\Dist\i18n\" />
+    <Folder Include="Content\Images\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Activities\ActivityTimeCorrection.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Activities\ActivityTimeCorrection.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Activities\OpenedActivities.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Activities\OpenedActivities.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Administration\Break.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Administration\Break.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Administration\ConfigurationParameters.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Administration\ConfigurationParameters.pl.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Administration\ConfigurationParameters.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Administration\Functions.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Administration\Functions.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Administration\PowerBiDefinition.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Administration\PowerBiDefinition.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Administration\ReportDefinitions.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Administration\ReportDefinitions.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Administration\UserFunctions.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Administration\userFunctions.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Administration\WorkerBreak.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Administration\WorkerBreak.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Common\Common.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Common\Common.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Common\Domain.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Common\Domain.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Common\Login.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Common\Login.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Common\Site.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Common\Site.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Corrections\Corrections.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Corrections\Corrections.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Machines\Department.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Machines\Department.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Machines\Machine.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Machines\Machine.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Machines\MachineGroup.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Machines\MachineGroup.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Machines\Productionline.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Machines\Productionline.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Parts\AttributeTypes.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Parts\AttributeTypes.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Parts\Part.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Parts\Part.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Parts\PartAttribute.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Parts\PartAttribute.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Parts\PartAttributeSet.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Parts\PartAttributeSet.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Printers\Printdocument.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Printers\Printdocument.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Printers\Printer.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Printers\Printer.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Printers\Printermachine.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Printers\Printermachine.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Printers\Printform.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Printers\Printform.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\ReportDefinitions\ReportDefinitions.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\ReportDefinitions\ReportDefinitions.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Statuses\RejectReason.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Statuses\RejectReason.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Statuses\RoutingStatus.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Statuses\RoutingStatus.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Statuses\RoutingStatusChange.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Statuses\RoutingStatusChange.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Statuses\Status.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Statuses\Status.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Statuses\StatusReason.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Statuses\StatusReason.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Statuses\WorkOrderStatus.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\Statuses\WorkOrderStatus.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\UserManagement\UserRoles.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\UserManagement\UserRoles.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\UserManagement\Users.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\UserManagement\Users.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\UserManagement\Workers.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\UserManagement\Workers.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkOrders\Repetitiveschedules.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkOrders\Repetitiveschedules.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkOrders\Routing.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkOrders\Routing.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkOrders\Technology.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkOrders\Technology.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkOrders\TechnologyTemplate.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkOrders\TechnologyTemplate.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkOrders\Workcenter.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkOrders\Workcenter.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkOrders\Workorder.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkOrders\Workorder.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkShifts\ShiftEntries.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkShifts\ShiftEntries.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkShifts\ShiftTemplates.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkShifts\ShiftTemplates.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkShifts\WorkTime.pl-PL.resx" />
-    <EmbeddedResource Include="Content\Dist\i18n_tmp\WorkShifts\WorkTime.resx" />
+    <ProjectReference Include="..\TOR.Configuration\TOR.Configuration.csproj">
+      <Project>{8d270afb-9c4e-4dc7-803e-abfc2f112515}</Project>
+      <Name>TOR.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TOR.Core\TOR.Core.csproj">
+      <Project>{5f0e9879-da8c-48ad-a356-e9a199776dda}</Project>
+      <Name>TOR.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TOR.DataAccess\TOR.DataAccess.csproj">
+      <Project>{5311fc7c-98e8-4e7a-9c28-de7c13b498dc}</Project>
+      <Name>TOR.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TOR.Infastructure\TOR.Infastructure.csproj">
+      <Project>{e4378139-bb1a-4ed0-825a-345d6dabd953}</Project>
+      <Name>TOR.Infastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TOR.Resorces\TOR.Resources.csproj">
+      <Project>{733c76da-82ae-4c8c-8c1c-280d01a124de}</Project>
+      <Name>TOR.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TOR.Services\TOR.Services.csproj">
+      <Project>{faf3026e-d053-4294-8d6c-d9d978bb7b84}</Project>
+      <Name>TOR.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

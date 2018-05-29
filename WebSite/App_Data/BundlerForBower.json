@@ -1,0 +1,7 @@
+{
+  "BundlesFileName": "../bundles.json",
+  "JsDirectory": "Content/dist/js/",
+  "CssDirectory": "Content/dist/css/"
+}
+
+

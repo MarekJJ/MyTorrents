@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>B4BCore</name>
+    </assembly>
+    <members>
+        <member name="T:B4BCore.CssOrJs">
+            <summary>
+            Used to say whether we are delivering CSS or JavaScript bundle
+            </summary>
+        </member>
+        <member name="T:B4BCore.BundlerForBower">
+            <summary>
+            This class contains extention methods to produce html strings to include CSS or JavaScript files in a HTML page
+            </summary>
+        </member>
+        <member name="M:B4BCore.BundlerForBower.#ctor(System.String,System.Func{System.String,System.String},System.Func{System.String,System.String})">
+            <summary>
+            This creates the class ready for bundling
+            </summary>
+            <param name="jsonDataDir">The absolute directory path to the folder that holds the BowerBundles.json and the 
+                optional BundlerForBower.json config file</param>
+            <param name="getAbsPathFromVirtualPath">This is a function which given a path relative to the MVC project 
+                will return the absolute path. In MVC5 this is provided by System.Web.Hosting.HostingEnvironment.MapPath.</param>
+            <param name="getChecksumFromRelPath">This is a function returns a checksum of a file referred to via an relative path
+                Can be null, in which case no checksum can be used.</param>
+        </member>
+        <member name="M:B4BCore.BundlerForBower.FormStaticFileWithCacheBuster(System.String,System.String)">
+            <summary>
+            This returns a file reference with a cachebuster value added.
+            </summary>
+            <param name="absFileUrl"></param>
+            <param name="cacheBusterValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:B4BCore.BundlerForBower.CalculateHtmlIncludes(System.String,B4BCore.CssOrJs,System.Boolean,System.Func{System.String,System.String})">
+            <summary>
+            This returns the appropriate html string to include in the web page such that the requested bundle will be loaded.
+            </summary>
+            <param name="bundleName"></param>
+            <param name="cssOrJs"></param>
+            <param name="inDevelopment">This controls whether we supply individual files or development mode 
+            or single minified files/CDNs in non-development mode</param>
+            <param name="getContentUrl">method to get url of content</param>
+            <returns></returns>
+        </member>
+        <member name="T:B4BCore.CheckBundles">
+            <summary>
+            This is a class that contains various tests to ensure that your bundles are correctly formed and
+            they are up to date.
+            </summary>
+        </member>
+        <member name="M:B4BCore.CheckBundles.#ctor(System.Type,System.String,System.Boolean)">
+            <summary>
+            This will setup checks the BundlesForBower in the assembly that the given type is in.
+            It uses the data directory to find the BowerBundles.json and the bundlerForBower.json user config file
+            </summary>
+            <param name="classToFindProjectDirOf"></param>
+            <param name="appDataDir">optional: if App_Data directory is not at the top level then you need to supply
+            AppDomain.CurrentDomain.GetData("DataDirectory").ToString() or an equivalent absolute directory path</param>
+            <param name="checkForConcatFile">optional: by default it checks the concat file, 
+            but if you go straight to the minified file then set this to false</param>
+        </member>
+        <member name="M:B4BCore.CheckBundles.#ctor(System.String,System.String,System.Boolean)">
+            <summary>
+            This requires the path to the directory of the project where all the files are stored
+            It uses the data directory to find the BowerBundles.json and the bundlerForBower.json user config file
+            </summary>
+            <param name="mvcAppPath">The absolute path to the project you want to test.</param>
+            <param name="appDataDir">optional: if App_Data directory is not at the top level then you need to supply
+            AppDomain.CurrentDomain.GetData("DataDirectory").ToString() or an equivalent absolute directory path</param>
+            <param name="checkForConcatFile">optional: by default it checks the concat file, 
+            but if you go straight to the minified file then set this to false</param>
+        </member>
+        <member name="M:B4BCore.CheckBundles.CheckSingleBundleIsValid(System.String)">
+            <summary>
+            Thic checks a specific bundle by name
+            </summary>
+            <param name="bundleName"></param>
+            <returns>empty list if no error, otherwise a list of errors</returns>
+        </member>
+        <member name="M:B4BCore.CheckBundles.CheckAllBundlesAreValid">
+            <summary>
+            This checks all the bundles in the bundle file are valid
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:B4BCore.CheckBundles.CheckBundleFileIsNotNewerThanMinifiedFiles">
+            <summary>
+            This checks that the minified files for each bundle is older than the 
+            BowerBundles.json file that defines what is in a bundle.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:B4BCore.Internal.CdnInfo">
+            <summary>
+            This contains the object information and methods for handling a cdn
+            </summary>
+        </member>
+        <member name="P:B4BCore.Internal.CdnInfo.Development">
+            <summary>
+            The name of the file to use in debug mode.
+            </summary>
+        </member>
+        <member name="P:B4BCore.Internal.CdnInfo.Production">
+            <summary>
+            The backup file to use in production mode if the CdnSuccessTest fails
+            </summary>
+        </member>
+        <member name="M:B4BCore.Internal.CdnInfo.BuildCdnIncludeString(System.String,System.String,System.Func{System.String})">
+            <summary>
+            This creates the CDN html include string using the properties in the json bundle object
+            </summary>
+            <param name="cdnHtmlFormatString"></param>
+            <param name="httpFileUrl">the fully qualified path to the file</param>
+            <param name="getChecksumOfProductionFile"></param>
+            <returns></returns>
+        </member>
+        <member name="M:B4BCore.Internal.CdnInfo.FindMissingPropertiesNeededByHtmlInclude(System.String)">
+            <summary>
+            This checks all the properties provided in the CDN object against the replace strings needed by the cdnHtmlFormatString
+            </summary>
+            <param name="cdnHtmlFormatString"></param>
+            <returns></returns>
+        </member>
+        <member name="P:B4BCore.Internal.ConfigInfo.BundlesFileName">
+            <summary>
+            Name of the json file that has the various bundle information
+            </summary>
+        </member>
+        <member name="P:B4BCore.Internal.ConfigInfo.StaticFileCaching">
+            <summary>
+            This holds the string for adding a cachebuster value to a static file
+            </summary>
+        </member>
+        <member name="P:B4BCore.Internal.ConfigInfo.JsDirectory">
+            <summary>
+            This holds the Directory path of where the concatenated and minified files are
+            </summary>
+        </member>
+        <member name="P:B4BCore.Internal.ConfigInfo.JsDebugHtmlFormatString">
+            <summary>
+            This holds the html to include the given file in the page when in debug mode 
+            It contains one parameter called {fileUrl}, which takes the name of the file to include
+            </summary>
+        </member>
+        <member name="P:B4BCore.Internal.ConfigInfo.JsNonDebugHtmlFormatString">
+            <summary>
+            This holds the html to include the given file in the page when in non-debug mode
+            It contains two parameters:
+            {fileUrl} which takes the name of the file to include
+            an optional {cachebuster} property that, if present, places a cachebuster value in the 
+            </summary>
+        </member>
+        <member name="P:B4BCore.Internal.ConfigInfo.JsCdnHtmlFormatString">
+            <summary>
+            This holds the html to include the given file in the page when in non-debug mode
+            It contains four parameters:
+            {cdnUrl} which is the url to try to get the file from
+            {cdnSuccessTest} which is a JavaScript test which returns true if cnd loaded successfully
+            {fileUrl} which takes the name of the file to include if the cdnSuccessTest fails
+            an optional {cachebuster} property that, if present, places a cachebuster value on the non-cdn file
+            </summary>
+        </member>
+        <member name="P:B4BCore.Internal.ConfigInfo.CssDirectory">
+            <summary>
+            This holds the Directory path of where the concatenated and minified files are
+            </summary>
+        </member>
+        <member name="P:B4BCore.Internal.ConfigInfo.CssDebugHtmlFormatString">
+            <summary>
+            This holds the html to include the given file in the page when in debug mode 
+            It contains one parameter called {fileUrl}, which takes the name of the file to include
+            </summary>
+        </member>
+        <member name="P:B4BCore.Internal.ConfigInfo.CssNonDebugHtmlFormatString">
+            <summary>
+            This holds the html to include the given file in the page when in non-debug mode
+            It contains two parameters:
+            {fileUrl} which takes the name of the file to include
+            an optional {cachebuster} property that, if present, places a cachebuster value in the 
+            </summary>
+        </member>
+        <member name="P:B4BCore.Internal.ConfigInfo.CssCdnHtmlFormatString">
+            <summary>
+            This holds the html to include the given file in the page when in non-debug mode
+            It contains four parameters:
+            {cdnUrl} which is the url to try to get the file from
+            {cdnSuccessTest} which is a JavaScript test which returns true if cnd loaded successfully
+            {fileUrl} which takes the name of the file to include if the cdnSuccessTest fails
+            an optional {cachebuster} property that, if present, places a cachebuster value on the non-cdn file
+            </summary>
+        </member>
+        <member name="M:B4BCore.Internal.ConfigInfo.ReadConfig(System.String)">
+            <summary>
+            This returns the config for the BundlerForBower.
+            It forms this by reading the default setting from the manifest and then merges in any user config file, if present
+            </summary>
+            <param name="configFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="P:B4BCore.Internal.FileTypeConfigInfo.Directory">
+            <summary>
+            This holds the Directory path of where the concatenated and minified files are
+            </summary>
+        </member>
+        <member name="P:B4BCore.Internal.FileTypeConfigInfo.DebugHtmlFormatString">
+            <summary>
+            This holds the html to include the given file in the page when in debug mode 
+            It contains one parameter called {fileUrl}, which takes the name of the file to include
+            </summary>
+        </member>
+        <member name="P:B4BCore.Internal.FileTypeConfigInfo.NonDebugHtmlFormatString">
+            <summary>
+            This holds the html to include the given file in the page when in non-debug mode
+            It contains two parameters:
+            {fileUrl} which takes the name of the file to include
+            an optional {cachebuster} property that, if present, places a cachebuster value in the 
+            </summary>
+        </member>
+        <member name="P:B4BCore.Internal.FileTypeConfigInfo.CdnHtmlFormatString">
+            <summary>
+            This holds the html to include the given file in the page when in non-debug mode
+            It contains four parameters:
+            {cdnUrl} which is the url to try to get the file from
+            {cdnSuccessTest} which is a JavaScript test which returns true if cnd loaded successfully
+            {fileUrl} which takes the name of the file to include if the cdnSuccessTest fails
+            an optional {cachebuster} property that, if present, places a cachebuster value on the non-cdn file
+            </summary>
+        </member>
+        <member name="P:B4BCore.Internal.ReadBundleFile.BundleNames">
+            <summary>
+            This provides the list of property names that are present in the file settings file
+            </summary>
+        </member>
+        <member name="M:B4BCore.Internal.ReadBundleFile.GetBundleDebugFiles(System.String,System.String,System.Action{System.String})">
+            <summary>
+            This returns an array of strings from the setting
+            </summary>
+            <param name="bundleName">The name of the setting</param>
+            <param name="prefix">This string is added to the start of each string in the array</param>
+            <param name="errorHandler">used by CheckBundles to get any errors rather than throwing exception</param>
+            <returns></returns>
+        </member>
+        <member name="M:B4BCore.Internal.ReadBundleFile.GetBundleCdnInfo(System.String)">
+            <summary>
+            This returns any Content Management Information in the bundle
+            </summary>
+            <param name="bundleName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:B4BCore.Internal.RelPathSearcher">
+            <summary>
+            This class helps with relative paths that contain a search string
+            </summary>
+        </member>
+        <member name="M:B4BCore.Internal.RelPathSearcher.SplitRelDirPathAroundSearchDir(System.String,System.Int32)">
+            <summary>
+            This returns a array of three parts
+            0 - directories before the search dir - can be empty
+            1 - the directory search string
+            2 - the directories after the search dir - can be empty
+            </summary>
+            <param name="relDirPath"></param>
+            <param name="firstSearchCharIndex"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

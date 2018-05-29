@@ -1,0 +1,4 @@
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Resorces\bin\Debug\TOR.Resorces.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Resorces\bin\Debug\TOR.Resorces.pdb
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Resorces\obj\Debug\TOR.Resorces.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Resorces\obj\Debug\TOR.Resorces.pdb

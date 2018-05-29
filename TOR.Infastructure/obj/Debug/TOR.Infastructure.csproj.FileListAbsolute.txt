@@ -1,0 +1,5 @@
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Infastructure\bin\Debug\TOR.Infastructure.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Infastructure\bin\Debug\TOR.Infastructure.pdb
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Infastructure\obj\Debug\TOR.Infastructure.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Infastructure\obj\Debug\TOR.Infastructure.pdb
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Infastructure\obj\Debug\TOR.Infastructure.csprojResolveAssemblyReference.cache

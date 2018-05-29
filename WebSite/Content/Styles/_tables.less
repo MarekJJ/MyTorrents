@@ -1,0 +1,95 @@
+﻿.full-height-table {
+    height: 100vh !important;
+    float:left;
+    width:100%;
+
+    .scrollableContainer {
+        height: 100%;
+    }
+}
+
+.scrollableContainer .headerSpacer,
+.scrollableContainer .scrollArea,
+.scrollableContainer .scrollArea table th .box {
+    border: 0 none;
+}
+
+table.terminal-table {
+    tbody tr,
+    thead tr {
+        td, th  {
+            border: 0 none;
+
+        }
+    }
+    th{
+         color: #ffffff !important;
+         font-weight: normal;
+    }
+
+     td {
+        font-weight: normal;
+        color: #3b7180;
+    }
+
+    thead th{
+        font-size: 0.7rem;
+
+        .box {
+            padding: 0;
+        }
+    }
+
+    tbody td {
+        font-size: 0.7rem; //oo
+        padding: 0.25rem 0;
+        cursor: pointer;
+
+        & > span {
+            background: #e8eef0;
+            display:flex;
+            width:100%;
+            margin-left:1px;
+
+            &:empty {
+                &:after {
+                   content: '\00a0'
+                }
+            }
+        }
+    }
+    tbody tr:last-child td {
+        border-bottom: 0 none;
+    }
+
+    tbody tr.selected td > span {
+        background: #9FCE60;
+        font-weight: bold;
+    }
+
+    thead th.first-background-cell,
+    tbody td > .first-background-cell {
+        padding-left:0.5rem !important
+    }
+    tr{
+        height:20px;
+    }
+    .listRow{
+        min-height:65px;
+        height:auto;
+        padding:4px
+    }
+    .heading{
+        padding-left:3px
+    }
+}
+
+.searchTable>.scrollableContainer{
+    padding-top: 75px;
+}
+.searchTable .scrollArea table .th-inner {
+    height: 100px;
+}
+.searchTable .scrollArea table thead tr {
+    height: 0px;
+}

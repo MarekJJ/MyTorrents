@@ -1,17 +1,44 @@
 {
-  "name": "website",
-  "description": "",
-  "main": "index.js",
-  "authors": [
-    "Marerk Jedrysiak <marek.jedrysiak@dsr.com.pl>"
-  ],
-  "license": "ISC",
-  "homepage": "",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+  "name": "sfc",
+  "private": true,
+  "dependencies": {
+    "jquery": "3.1.1",
+    "underscore": "1.8.3",
+    "bootstrap": "3.3.7",
+    "font-awesome": "4.7.0",
+    "messageformat": "1.0.2",
+    "eonasdan-bootstrap-datetimepicker": "4.17.45",
+    "moment": "2.17.1",
+    "angular": "1.5.9",
+    "ui-router": "0.3.2",
+    "angular-sanitize": "1.5.9",
+    "angular-ui-scrollpoint": "2.1.1",
+    "angular-ui-select": "0.19.8",
+    "angular-toastr": "2.1.1",
+    "angular-messages": "1.5.9",
+    "angular-cookies": "1.5.9",
+    "angular-translate": "2.13.1",
+    "angular-translate-loader-static-files": "2.13.1",
+    "angular-translate-interpolation-messageformat": "2.13.1",
+    "angular-bootstrap": "2.4.0",
+    "datatables": "1.10.12",
+    "datatables-i18n": "1.0.4",
+    "angular-datatables": "0.5.5",
+    "iCheck": "1.0.2",
+    "ng-file-upload": "12.2.13",
+    "angular-eonasdan-datetimepicker": "0.3.8",
+    "angular-dynamic-number": "2.3.2",
+    "ngprogress": "1.1.3",
+    "angular-ivh-treeview": "1.0.4",
+    "angular-click-outside": "2.10.2",
+    "angular-animate": "1.5.9",
+    "angular-bootstrap-colorpicker": "3.0.31",
+    "angular-local-storage": "0.7.1"
+  },
+  "resolutions": {
+    "angular": "1.5.9",
+    "messageformat": "1.0.2",
+    "angular-bootstrap": "2.4.0",
+    "jquery": ">=3.1.1"
+  }
 }

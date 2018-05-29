@@ -1,1 +1,0 @@
-{"printerMachineList":"Machine/printer","removeConfirmationMessage":"Are you sure you want to remove this {COUNT, plural, one{machine/printer link} other{machine/printer link} }?","savedSuccessfully":"Machine/printer link have been updated.","validation.documentMachineIsNotUnique":"The machine has already defined this document."}

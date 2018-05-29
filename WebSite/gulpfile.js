@@ -1,32 +1,32 @@
 ﻿/// <binding ProjectOpened='init' />
 
-var gulp = require('gulp'),
-    bower = require('gulp-bower'),
-    ignore = require('gulp-ignore'),
-    fs = require('fs'),
-    watch = require('gulp-watch'),
-    concat = require('gulp-concat'),
-    uglify = require('gulp-uglify'),
-    concatCss = require('gulp-concat-css'),
-    cleanCss = require('gulp-clean-css'),
-    rebaseUrls = require('gulp-css-url-rebase'),
-    modifyCssUrls = require('gulp-modify-css-urls'),
-    less = require('gulp-less'),
-    lessChanged = require('gulp-less-changed'),
-    sourcemaps = require('gulp-sourcemaps'),
-    runSequence = require('run-sequence'),
-    resx2 = require('gulp-resx2'),
-    mergeJson = require('gulp-merge-json'),
-    cleanDest = require('gulp-dest-clean'),
-    path = require('path'),
-    camelCase = require('camel-case');
+var gulp = require('gulp'),     //gulp
+    bower = require('gulp-bower'), // gulp dala bowera
+    ignore = require('gulp-ignore'), // ignoruje jakieś tam pliki które są wskazywane w te samej funkcji
+    fs = require('fs'), // ?
+    watch = require('gulp-watch'), // wach
+    concat = require('gulp-concat'),//nazywa nowo utworzony plik
+    uglify = require('gulp-uglify'), // robi minifikacje  czyli, tworzy male pliczki .min
+    concatCss = require('gulp-concat-css'),// nazywa pliki css
+    cleanCss = require('gulp-clean-css'), // oczyszcza jakiś problem, nie rozumieć ???https://www.npmjs.com/package/gulp-clean-css#regarding-issues
+    rebaseUrls = require('gulp-css-url-rebase'), //umożliwia pliki zawartość z różnych plików w różnym położeniu zapianie w jednym pliku wykożystna jest z plikami less do jednego css https://www.npmjs.com/package/gulp-css-url-rebase
+    modifyCssUrls = require('gulp-modify-css-urls'), // łączys URL z sciężką do pliku https://www.npmjs.com/package/gulp-modify-css-urls
+    less = require('gulp-less'), //konewrtuje na css pomaga zapisywac za pomocą komendy @import do jednego pliku css
+    lessChanged = require('gulp-less-changed'),//https://www.npmjs.com/package/gulp-less-changed
+    sourcemaps = require('gulp-sourcemaps'),//https://www.npmjs.com/package/gulp-sourcemaps
+    runSequence = require('run-sequence'),// pozwala uruchomić sekwencje wstrzykninenć
+    resx2 = require('gulp-resx2'),     // do konwersji resx na json
+    mergeJson = require('gulp-merge-json'), // pozwala na mergowanie wielu plików json do jednego wykożystyny jest  przy zapisywaniu tłumaczeń w json do jednego pliku
+    cleanDest = require('gulp-dest-clean'),//czyści jakiś tymczasowy folder
+    path = require('path'),//This is an exact copy of the NodeJS ’path’ module published to the NPM registry.
+    camelCase = require('camel-case');// zamienia foo-bar na fooBar
 
 var paths = {
     vendorDir: './Content/Vendor/',
-    lessFiles: ['./Content/DSRToolkit/**/*.less', './Areas/**/*.less', './Content/Styles/**/*.less'],
-    jsFiles: ['./Content/DSRToolkit/**/*.js', './Content/Scripts/**/*.js', './Areas/**/*.js'],
+    lessFiles: './Content/Styles/**/*.less', //ok
+    jsFiles:  ['./Content/Scripts/**/*.js', './Areas/**/*.js'],
     bundlesFile: './bundles.json',
-    resxFiles: '../SFC.Resources/Frontend/**/*.resx',
+    resxFiles: '../TOR.Resources/FrontEndTranslations/**/*.resx', // scieżka do plików tłumaczeń
 
     distCssBundle: './Content/Dist/css/',
     distJsBundle: './Content/Dist/js',
@@ -141,12 +141,13 @@ gulp.task('generateTranslations', ['convertResxToJson', 'cleanDistI18N'], functi
     return subtasks;
 });
 
+//ok
 gulp.task('compileLess', function () {
-    return gulp.src(paths.lessFiles, { base: './' })
-        .pipe(ignore.exclude('**/_*.less'))
+    return gulp.src(paths.lessFiles, { base: './' }) // lessFiles: ./Content/Styles/**/*.less',
+        .pipe(ignore.exclude('**/_*.less')) // tutaj jest ta kreska _ te pliki są pomijane bo barany jest tylko dop
         //.pipe(lessChanged())
-        .pipe(less())
-        .pipe(gulp.dest('./'));
+        .pipe(less()) // less = require('gulp-less'),
+        .pipe(gulp.dest('./')); // oznacza że jest w tym samym miejscu
 });
 
 gulp.task('generateCssBundles', ['compileLess'], function () {

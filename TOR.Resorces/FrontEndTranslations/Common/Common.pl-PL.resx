@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="accessForbidden" xml:space="preserve">
+    <value>Nie masz uprawnień do wykonania tej operacji.</value>
+  </data>
+  <data name="active" xml:space="preserve">
+    <value>Aktywny</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="attachedBy" xml:space="preserve">
+    <value>Dodany przez</value>
+  </data>
+  <data name="attachments" xml:space="preserve">
+    <value>Załączniki</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Powrót</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="category" xml:space="preserve">
+    <value>Kategoria</value>
+  </data>
+  <data name="code" xml:space="preserve">
+    <value>Kod</value>
+  </data>
+  <data name="creationDate" xml:space="preserve">
+    <value>Data utworzenia</value>
+  </data>
+  <data name="date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="defaultValue" xml:space="preserve">
+    <value>Wartość domyślna</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>Szczegóły</value>
+  </data>
+  <data name="dictionary" xml:space="preserve">
+    <value>Słownik</value>
+  </data>
+  <data name="duration.days" xml:space="preserve">
+    <value>dni</value>
+  </data>
+  <data name="duration.hours" xml:space="preserve">
+    <value>godz</value>
+  </data>
+  <data name="duration.minutes" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Edytuj</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="endDate" xml:space="preserve">
+    <value>Data zakończenia</value>
+  </data>
+  <data name="entryAuthor" xml:space="preserve">
+    <value>Autor wpisu</value>
+  </data>
+  <data name="entryDate" xml:space="preserve">
+    <value>Data wpisu</value>
+  </data>
+  <data name="export" xml:space="preserve">
+    <value>Eksportuj</value>
+  </data>
+  <data name="externalName" xml:space="preserve">
+    <value>Nazwa zewnętrzna</value>
+  </data>
+  <data name="false" xml:space="preserve">
+    <value>Fałsz</value>
+  </data>
+  <data name="fieldType" xml:space="preserve">
+    <value>Typ pola</value>
+  </data>
+  <data name="fileIsTooLarge" xml:space="preserve">
+    <value>Plik jest za duży {{ fileSize }}MB: max {{ fileMaxSize }}MB</value>
+  </data>
+  <data name="firstName" xml:space="preserve">
+    <value>Imię</value>
+  </data>
+  <data name="group" xml:space="preserve">
+    <value>Grupa</value>
+  </data>
+  <data name="key" xml:space="preserve">
+    <value>Klucz</value>
+  </data>
+  <data name="label" xml:space="preserve">
+    <value>Etykieta</value>
+  </data>
+  <data name="lastName" xml:space="preserve">
+    <value>Nazwisko</value>
+  </data>
+  <data name="lenght" xml:space="preserve">
+    <value>Długość</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>Nie</value>
+  </data>
+  <data name="noAttachments" xml:space="preserve">
+    <value>Brak załączników</value>
+  </data>
+  <data name="notFoundProblem" xml:space="preserve">
+    <value>Nie znaleziono zasobu: {{ url }}</value>
+  </data>
+  <data name="noValue" xml:space="preserve">
+    <value>Brak wartości domyślnej</value>
+  </data>
+  <data name="order" xml:space="preserve">
+    <value>Kolejność</value>
+  </data>
+  <data name="ordinalNumber" xml:space="preserve">
+    <value>Lp.</value>
+  </data>
+  <data name="ownership" xml:space="preserve">
+    <value>Własność</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="preview" xml:space="preserve">
+    <value>Podgląd</value>
+  </data>
+  <data name="qtyRequired" xml:space="preserve">
+    <value>Ilość wymagana</value>
+  </data>
+  <data name="quantity" xml:space="preserve">
+    <value>Ilość</value>
+  </data>
+  <data name="remarks" xml:space="preserve">
+    <value>Uwagi</value>
+  </data>
+  <data name="remove" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="required" xml:space="preserve">
+    <value>Wymagane</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Znajdź</value>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>--wybierz--</value>
+  </data>
+  <data name="serverResponseProblem" xml:space="preserve">
+    <value>Wystąpił problem z uzyskaniem odpowiedzi z serwera.</value>
+  </data>
+  <data name="signOut" xml:space="preserve">
+    <value>Wyloguj się</value>
+  </data>
+  <data name="startDate" xml:space="preserve">
+    <value>Data rozpoczęcia</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="tools" xml:space="preserve">
+    <value>Narzędzia</value>
+  </data>
+  <data name="true" xml:space="preserve">
+    <value>Prawda</value>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="um" xml:space="preserve">
+    <value>JM</value>
+  </data>
+  <data name="uploadFile" xml:space="preserve">
+    <value>Wczytaj plik</value>
+  </data>
+  <data name="validation.codeIsNotUnique" xml:space="preserve">
+    <value>Kod nie jest unikalny.</value>
+  </data>
+  <data name="validation.duplicatedEntry" xml:space="preserve">
+    <value>Zduplikowany wpis dla wskazanego obiektu.</value>
+  </data>
+  <data name="validation.emailIsNotUnique" xml:space="preserve">
+    <value>Adres email nie jest unikalny.</value>
+  </data>
+  <data name="validation.greaterThanZero" xml:space="preserve">
+    <value>Wartość musi być większa od 0.</value>
+  </data>
+  <data name="validation.invalidEmail" xml:space="preserve">
+    <value>Nieprawidłowy adres email.</value>
+  </data>
+  <data name="validation.loginIsNotUnique" xml:space="preserve">
+    <value>Login nie jest unikalny.</value>
+  </data>
+  <data name="validation.maxDecimalDigits" xml:space="preserve">
+    <value>Ilość cyfr po przecinku musi być mniejsza lub równa {{maxDecimalDigits}}.</value>
+  </data>
+  <data name="validation.maxLength" xml:space="preserve">
+    <value>Długość pola nie może przekraczać {{maxLength}} znaków.</value>
+  </data>
+  <data name="validation.maxValue" xml:space="preserve">
+    <value>Wartość nie może być większa niż {{ maxValue }}.</value>
+  </data>
+  <data name="validation.minValue" xml:space="preserve">
+    <value>Wartość nie może być mniejsza niż {{ minValue }}.</value>
+  </data>
+  <data name="validation.nameIsNotUnique" xml:space="preserve">
+    <value>Nazwa nie jest unikalna.</value>
+  </data>
+  <data name="validation.number" xml:space="preserve">
+    <value>Wartość pola nie jest poprawną liczbą.</value>
+  </data>
+  <data name="validation.regex" xml:space="preserve">
+    <value>Zawartość nie pokrywa się z maską {{ regEx }}</value>
+  </data>
+  <data name="validation.required" xml:space="preserve">
+    <value>Pole jest wymagane.</value>
+  </data>
+  <data name="validation.valueIsNotUnique" xml:space="preserve">
+    <value>Wartość nie jest unikalna.</value>
+  </data>
+  <data name="validFromDate" xml:space="preserve">
+    <value>Obowiązuje od</value>
+  </data>
+  <data name="value" xml:space="preserve">
+    <value>Wartość</value>
+  </data>
+  <data name="visible" xml:space="preserve">
+    <value>Widoczne</value>
+  </data>
+  <data name="warehouse" xml:space="preserve">
+    <value>Magazyn</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Tak</value>
+  </data>
+  <data name="domain" xml:space="preserve">
+    <value>Domena</value>
+  </data>
+  <data name="site" xml:space="preserve">
+    <value>Zakład</value>
+  </data>
+  <data name="anErrorOccuredWhileSaving" xml:space="preserve">
+    <value>Wystąpił błąd podczas zapisu danych.</value>
+  </data>
+  <data name="correct" xml:space="preserve">
+    <value>Koryguj</value>
+  </data>
+  <data name="quantityCompleted" xml:space="preserve">
+    <value>Ilość wykonana</value>
+  </data>
+  <data name="quantityRejected" xml:space="preserve">
+    <value>Ilość braków</value>
+  </data>
+  <data name="rejectReason" xml:space="preserve">
+    <value>Kod braku</value>
+  </data>
+  <data name="validation.operationIsNotUnique" xml:space="preserve">
+    <value>Operacja nie jest unikalna.</value>
+  </data>
+  <data name="worker" xml:space="preserve">
+    <value>Pracownik</value>
+  </data>
+  <data name="path" xml:space="preserve">
+    <value>Ścieżka</value>
+  </data>
+  <data name="number" xml:space="preserve">
+    <value>Numer</value>
+  </data>
+  <data name="control" xml:space="preserve">
+    <value>Kontrola</value>
+  </data>
+  <data name="activate" xml:space="preserve">
+    <value>Aktywuj</value>
+  </data>
+  <data name="deactivate" xml:space="preserve">
+    <value>Dezaktywuj</value>
+  </data>
+  <data name="qtyReportAllowed" xml:space="preserve">
+    <value>Raportowanie ilości</value>
+  </data>
+  <data name="dateFormat" xml:space="preserve">
+    <value>YYYY-MM-DD HH:MM</value>
+  </data>
+  <data name="comment" xml:space="preserve">
+    <value>Komentarz</value>
+  </data>
+  <data name="correction" xml:space="preserve">
+    <value>Korekta</value>
+  </data>
+  <data name="durationTime" xml:space="preserve">
+    <value>Czas trwania</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>Od</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>Do</value>
+  </data>
+  <data name="statusReason" xml:space="preserve">
+    <value>Przyczyna zmiany statusu</value>
+  </data>
+  <data name="validation.startDateShouldNotBeLaterThanEndDate" xml:space="preserve">
+    <value>Data rozpoczęcia nie powinna być późniejsza niż data zakończenia.</value>
+  </data>
+  <data name="endTime" xml:space="preserve">
+    <value>Czas zakończenia</value>
+  </data>
+  <data name="startTime" xml:space="preserve">
+    <value>Czas rozpoczęcia</value>
+  </data>
+  <data name="generate" xml:space="preserve">
+    <value>Generuj</value>
+  </data>
+  <data name="notActiveObject" xml:space="preserve">
+    <value>Nie jest Aktywny </value>
+  </data>
+  <data name="isNotActiveSelectDifferentOne" xml:space="preserve">
+    <value>Jest nieaktywny wybierz inny.</value>
+  </data>
+  <data name="validation.inThisWorkCenterMachineWiththisCodeAlreadyExisting" xml:space="preserve">
+    <value>W wybranym gnieździe maszyna z tym kodem już istnieje.</value>
+  </data>
+  <data name="saveAndCreateNew" xml:space="preserve">
+    <value>Zapisz i utwórz</value>
+  </data>
+  <data name="selectWorker" xml:space="preserve">
+    <value>Wybierz pracownika </value>
+  </data>
+</root>
