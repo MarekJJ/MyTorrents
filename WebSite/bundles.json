@@ -1,12 +1,56 @@
 {
   "main-Css": [
-    "./Content/Styles/Common.css"
-
+    "./Content/vendor/bootstrap/css/bootstrap.css",
+    "./Content/vendor/font-awesome/css/font-awesome.css",
+    "./Content/vendor/datatables/css/jquery.dataTables.css",
+    "./Content/vendor/angularjs/angular-csp.css",
+    "./Content/vendor/angular-toastr/angular-toastr.css",
+    "./Content/vendor/angular-ui-select/select.css",
+    "./Content/vendor/angular-datatables/angular-datatables.css",
+    "./Content/vendor/angular-datatables/plugins/bootstrap/datatables.bootstrap.min.css",
+    "./Content/vendor/icheck/skins/flat/green.css",
+    "./Content/vendor/eonasdan-bootstrap-datetimepicker/bootstrap-datetimepicker.css",
+    "./Content/vendor/ngprogress/ngProgress.css",
+    "./Content/vendor/angular-ivh-treeview/ivh-treeview.css",
+    "./Content/vendor/angular-ivh-treeview/ivh-treeview-theme-basic.css",
+    "./Content/vendor/angular-bootstrap-colorpicker/css/colorpicker.css",
+    "./Content/DSRToolkit/Core/Styles/Common/Common.css",
+    "./Content/Styles/CustomStyles.css"
   ],
 
   "main-Js": [
-
-    "./Content/vendor/angular-animate/angular-animate.js"
-
+    "./Content/vendor/jquery/jquery.js",
+    "./Content/vendor/underscore/underscore.js",
+    "./Content/vendor/bootstrap/js/bootstrap.js",
+    "./Content/vendor/datatables/js/jquery.dataTables.js",
+    "./Content/vendor/icheck/icheck.js",
+    "./Content/vendor/messageformat/messageformat.js",
+    "./Content/vendor/moment/moment-with-locales.js",
+    "./Content/vendor/eonasdan-bootstrap-datetimepicker/bootstrap-datetimepicker.js",
+    "./Content/vendor/angularjs/angular.js",
+    "./Content/vendor/ui-router/angular-ui-router.js",
+    "./Content/vendor/angular-ui-select/select.js",
+    "./Content/vendor/angular-ui-scrollpoint/scrollpoint.js",
+    "./Content/vendor/angular-animate/angular-animate.js",
+    "./Content/vendor/angular-sanitize/angular-sanitize.js",
+    "./Content/vendor/angular-cookies/angular-cookies.js",
+    "./Content/vendor/angular-messages/angular-messages.js",
+    "./Content/vendor/angular-toastr/angular-toastr.tpls.js",
+    "./Content/vendor/angular-bootstrap/ui-bootstrap-tpls.js",
+    "./Content/vendor/angular-datatables/angular-datatables.js",
+    "./Content/vendor/angular-datatables/plugins/bootstrap/angular-datatables.bootstrap.js",
+    "./Content/vendor/angular-datatables/plugins/select/angular-datatables.select.js",
+    "./Content/vendor/angular-translate/angular-translate.js",
+    "./Content/vendor/angular-translate-loader-static-files/angular-translate-loader-static-files.js",
+    "./Content/vendor/angular-translate-interpolation-messageformat/angular-translate-interpolation-messageformat.js",
+    "./Content/vendor/ng-file-upload/ng-file-upload-all.js",
+    "./Content/vendor/angular-eonasdan-datetimepicker/angular-eonasdan-datetimepicker.js",
+    "./Content/vendor/angular-dynamic-number/dynamic-number.js",
+    "./Content/vendor/ngprogress/ngprogress.js",
+    "./Content/vendor/angular-ivh-treeview/ivh-treeview.js",
+    "./Content/vendor/angular-click-outside/clickoutside.directive.js",
+    "./Content/vendor/angular-bootstrap-colorpicker/js/bootstrap-colorpicker-module.js",
+    "./Content/vendor/angular-local-storage/angular-local-storage.js",
+    "./Areas/PowerBiComponents/Scripts/powerbi.js"
   ]
 }

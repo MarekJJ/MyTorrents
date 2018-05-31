@@ -138,8 +138,7 @@ namespace WebSite.App_Start
                 isDebug = (bool)forceState;
 
             var bundler = GetBundlerForBowerCached(helper);
-            var urlHelper = new UrlHelper(helper.ViewContext.RequestContext);
-            var p = new MvcHtmlString(bundler.CalculateHtmlIncludes(bundleName, cssOrJs, isDebug, urlHelper.Content));
+            var urlHelper = new UrlHelper(helper.ViewContext.RequestContext);            
             return new MvcHtmlString(bundler.CalculateHtmlIncludes(bundleName, cssOrJs, isDebug, urlHelper.Content));
         }
 
