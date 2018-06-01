@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-   
+
 
     <!-- Bootstrap -->
     <link href="/Temp1/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -24,31 +24,60 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Html.CssBundle("main-Css")
 </head>
-    <body>
-        @Html.JsBundle("main-Js")
-        <div class="container body-content">
-            @Html.MvcSiteMap().Menu(showStartingNode: false)
-            @Html.MvcSiteMap().SiteMapPath()
-            @RenderBody()
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col menu_fixed">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    @Html.JsBundle("main-Js")
+
+                    @Html.MvcSiteMap().Menu(showStartingNode: false)
+                    @Html.MvcSiteMap().SiteMapPath()
+
+
+
+
+                    <div class="right_col" role="main">
+                        <div class="">
+                            <div class="page-title">
+                                <div class="title_left">
+                                    @RenderBody()
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                        @*---------------------------------------------*@
+                        <!-- jQuery -->
+                        <script src="/Temp1/vendors/jquery/dist/jquery.min.js"></script> <!--jest jquery-->
+                        <!-- Bootstrap -->
+                        <script src="/Temp1/vendors/bootstrap/dist/js/bootstrap.min.js"></script> <!--jest bootstrap-->
+                        <!-- FastClick -->
+                        <script src="/Temp1vendors/fastclick/lib/fastclick.js"></script>
+                        <!-- NProgress -->
+                        <script src="/Temp1vendors/nprogress/nprogress.js"></script>
+                        <!-- jQuery custom content scroller -->
+                        <script src="/Temp1vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+
+                        <!-- Custom Theme Scripts -->
+                        <script src="/Temp1/build/js/custom.min.js"></script>
+
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-
-
-
-        @*---------------------------------------------*@
-        <!-- jQuery -->
-        <script src="/Temp1/vendors/jquery/dist/jquery.min.js"></script> <!--jest jquery-->
-        <!-- Bootstrap -->
-        <script src="/Temp1/vendors/bootstrap/dist/js/bootstrap.min.js"></script> <!--jest bootstrap-->
-        <!-- FastClick -->
-        <script src="/Temp1vendors/fastclick/lib/fastclick.js"></script>
-        <!-- NProgress -->
-        <script src="/Temp1vendors/nprogress/nprogress.js"></script>
-        <!-- jQuery custom content scroller -->
-        <script src="/Temp1vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-
-        <!-- Custom Theme Scripts -->
-        <script src="/Temp1/build/js/custom.min.js"></script>
     </body>
 </html>
