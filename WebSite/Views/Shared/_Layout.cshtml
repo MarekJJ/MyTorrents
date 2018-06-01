@@ -6,13 +6,13 @@
 
 
     <!-- Bootstrap -->
-    <link href="/Temp1/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    @*<link href="/Temp1/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">*@
     <!-- Font Awesome -->
-    <link href="/Temp1/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    @*<link href="/Temp1/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">*@
     <!-- NProgress -->
-    <link href="/Temp1/vendors/nprogress/nprogress.css" rel="stylesheet">
+    @*<link href="/Temp1/vendors/nprogress/nprogress.css" rel="stylesheet">*@
     <!-- jQuery custom content scroller -->
-    <link href="/Temp1/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet" /> <!--tego nie mam w vendor-->
+    @*<link href="/Temp1/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet" />*@ <!--tego nie mam w vendor-->
     <!-- Custom Theme Style -->
     <link href="/Temp1/build/css/custom.min.css" rel="stylesheet">  <!--kustomowe css-->
 
@@ -27,18 +27,14 @@
 <body class="nav-md">
     <div class="container body" style="width:100%">
         <div class="main_container">
-            <div class="col-md-3  menu_fixed">
-                <div class="left_col">
+            <div class="col-md-3  menu_fixed" style="background-color:black;">
+                <div class="left_col" style="background-color:black;">
                     <div class="navbar nav_title" style="border: 0;">
                         <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>dupa </span></a>
                     </div>
-
                     <div class="clearfix"></div>
 
-
-
                     @Html.JsBundle("main-Js")
-
                     @Html.MvcSiteMap().Menu(showStartingNode: false)
                     @Html.MvcSiteMap().SiteMapPath()
                     </div >
@@ -141,7 +137,7 @@
                         </div>
                         <!-- /top navigation -->
 
-
+                    <!--------------główny wiok---------------------->
                         <div class="right_col" role="main" style="margin:0;">
                             <div class="">
                                 <div class="page-title">
@@ -152,7 +148,7 @@
                             </div>
                         </div>
                     </div>
-
+                   <!--------------główny wiok---------------------->
 
 
 
@@ -162,22 +158,21 @@
 
                         @*---------------------------------------------*@
                         <!-- jQuery -->
-                        <script src="/Temp1/vendors/jquery/dist/jquery.min.js"></script> <!--jest jquery-->
+                        @*<script src="/Temp1/vendors/jquery/dist/jquery.min.js"></script>*@ <!--jest jquery-->
                         <!-- Bootstrap -->
-                        <script src="/Temp1/vendors/bootstrap/dist/js/bootstrap.min.js"></script> <!--jest bootstrap-->
+                        @*<script src="/Temp1/vendors/bootstrap/dist/js/bootstrap.min.js"></script>*@ <!--jest bootstrap-->
                         <!-- FastClick -->
-                        <script src="/Temp1vendors/fastclick/lib/fastclick.js"></script>
+                        @*<script src="/Temp1vendors/fastclick/lib/fastclick.js"></script>*@
                         <!-- NProgress -->
-                        <script src="/Temp1vendors/nprogress/nprogress.js"></script>
+                        @*<script src="/Temp1vendors/nprogress/nprogress.js"></script>*@
                         <!-- jQuery custom content scroller -->
-                        <script src="/Temp1vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+                        @*<script src="/Temp1vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>*@
 
                         <!-- Custom Theme Scripts -->
                         <script src="/Temp1/build/js/custom.min.js"></script>
+                       @*---------------------------------------------*@
 
                     </div>
                 </div>
-
-            </div>
     </body>
 </html>

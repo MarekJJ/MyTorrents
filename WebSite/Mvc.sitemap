@@ -3,7 +3,16 @@
             xmlns="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-4.0"
             xsi:schemaLocation="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-4.0 MvcSiteMapSchema.xsd">
 
-    <mvcSiteMapNode title="Home" controller="Home" action="Index">
+  <mvcSiteMapNode title="Maszyny" clickable="false" imageUrl="fa-cogs" visibilityProvider="MvcSiteMapProvider.TrimEmptyGroupingNodesVisibilityProvider, MvcSiteMapProvider">
+    <mvcSiteMapNode title="Kartoteka maszyn" area="WorkCenters" controller="Machines" action="Index" key="Machines/Machines/" />
+    <mvcSiteMapNode title="Kartoteka gniazd" area="WorkCenters" controller="WorkCenters" action="Index" key="Machines/WorkCenters/" />
+    <mvcSiteMapNode title="Kartoteka wydziałów" area="WorkCenters" controller="Departments" action="Index" key="Machines/Departments/" />
+    <!--<mvcSiteMapNode title="Kartoteka linii produkcyjnych" area="WorkCenters" controller="ProductionLines" action="Index" key="Machines/ProductionLines" />-->
+    <mvcSiteMapNode title="Kartoteka grup maszyn" area="WorkCenters" controller="MachineGroups" action="Index" key="Machines/MachineGroups/" />
+  </mvcSiteMapNode>
+
+
+    <!--<mvcSiteMapNode title="Home" controller="Home" action="Index">
     <mvcSiteMapNode title="About" controller="Home" action="About"/>
     <mvcSiteMapNode title="Contact Us" controller="Home" action="Contact"/>
 
@@ -12,6 +21,6 @@
         <mvcSiteMapNode title="Kartoteka gniazd" area="WorkCenters" controller="WorkCenters" action="Index" key="Machines/WorkCenters/" />
         <mvcSiteMapNode title="Kartoteka wydziałów" area="WorkCenters" controller="Departments" action="Index" key="Machines/Departments/" />
 
-  </mvcSiteMapNode>
+  </mvcSiteMapNode>-->
 
 </mvcSiteMap>
