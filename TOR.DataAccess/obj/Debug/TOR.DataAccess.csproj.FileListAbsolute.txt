@@ -2,4 +2,3 @@ C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\TOR.DataAcc
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\TOR.DataAccess.pdb
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\obj\Debug\TOR.DataAccess.dll
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\obj\Debug\TOR.DataAccess.pdb
-C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\obj\Debug\TOR.DataAccess.csprojResolveAssemblyReference.cache
