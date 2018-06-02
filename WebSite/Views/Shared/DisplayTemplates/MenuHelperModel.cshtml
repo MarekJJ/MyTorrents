@@ -4,23 +4,25 @@
     <div class="menu_section">
         <h3>General</h3>
         <ul class="nav side-menu">
-
-            @for (int i = Model.Nodes.Count; i > 0; i--)
+            @foreach (var nodesGroup in Model.Nodes)
             {
-                <li>
-                    @if (Model.Nodes.Count == i)
-                    {
-                        <a><i class="fa fa-home"></i> @Html.DisplayFor(m => Model.Nodes[i - 1].Ancestors[0].Description)  <span class="fa fa-chevron-down"></span></a>
-                    }
-
-
-                    <ul class="nav child_menu">
-                        @foreach (var node in Model.Nodes)
+                for (int i = nodesGroup.Children.Count; i > 0; i--)
+                {
+                    <li>
+                        @if (nodesGroup.Children.Count == i)
                         {
-                            <li>@Html.DisplayFor(m => node)</li>
+                            <a><i class="fa fa-home"></i> @Html.DisplayFor(m => nodesGroup.Children[i - 1].Ancestors[0].Description)  <span class="fa fa-chevron-down"></span></a>
                         }
-                    </ul>
-                </li>
+
+
+                        <ul class="nav child_menu">
+                            @foreach (var child in nodesGroup.Children)
+                            {
+                                <li>@Html.DisplayFor(m => child)</li>
+                            }
+                        </ul>
+                    </li>
+                }
             }
         </ul>
     </div>

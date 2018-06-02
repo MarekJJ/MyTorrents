@@ -3,7 +3,7 @@
             xmlns="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-4.0"
             xsi:schemaLocation="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-4.0 MvcSiteMapSchema.xsd">
 
-  <!--<mvcSiteMapNode title="ROOT" clickable="false">-->
+  <mvcSiteMapNode title="ROOT" clickable="false">
 
     <mvcSiteMapNode title="Filmy" clickable="false" imageUrl="fa-cogs" visibilityProvider="MvcSiteMapProvider.TrimEmptyGroupingNodesVisibilityProvider, MvcSiteMapProvider">
       <mvcSiteMapNode title="Pornole" area="WorkCenters" controller="Machines" action="Index" key="Machines/Machines/" />
@@ -22,7 +22,7 @@
           <mvcSiteMapNode title="Szablony technologii" area="WorkOrders" controller="TechnologyTemplates" action="Index" />
           <mvcSiteMapNode title="Atrybuty" area="WorkOrders" controller="PartAttributes" action="Index" />
           <mvcSiteMapNode title="Zestawy atrybutów" area="WorkOrders" controller="PartAttributeSets" action="Index" />-->
-    <!--</mvcSiteMapNode>-->
+    </mvcSiteMapNode>
 
   </mvcSiteMapNode>
 </mvcSiteMap>
