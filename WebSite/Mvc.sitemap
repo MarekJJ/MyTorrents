@@ -3,24 +3,26 @@
             xmlns="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-4.0"
             xsi:schemaLocation="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-4.0 MvcSiteMapSchema.xsd">
 
-  <mvcSiteMapNode title="Maszyny" clickable="false" imageUrl="fa-cogs" visibilityProvider="MvcSiteMapProvider.TrimEmptyGroupingNodesVisibilityProvider, MvcSiteMapProvider">
-    <mvcSiteMapNode title="Kartoteka maszyn" area="WorkCenters" controller="Machines" action="Index" key="Machines/Machines/" />
-    <mvcSiteMapNode title="Kartoteka gniazd" area="WorkCenters" controller="WorkCenters" action="Index" key="Machines/WorkCenters/" />
-    <mvcSiteMapNode title="Kartoteka wydziałów" area="WorkCenters" controller="Departments" action="Index" key="Machines/Departments/" />
-    <!--<mvcSiteMapNode title="Kartoteka linii produkcyjnych" area="WorkCenters" controller="ProductionLines" action="Index" key="Machines/ProductionLines" />-->
-    <mvcSiteMapNode title="Kartoteka grup maszyn" area="WorkCenters" controller="MachineGroups" action="Index" key="Machines/MachineGroups/" />
+  <!--<mvcSiteMapNode title="ROOT" clickable="false">-->
+
+    <mvcSiteMapNode title="Filmy" clickable="false" imageUrl="fa-cogs" visibilityProvider="MvcSiteMapProvider.TrimEmptyGroupingNodesVisibilityProvider, MvcSiteMapProvider">
+      <mvcSiteMapNode title="Pornole" area="WorkCenters" controller="Machines" action="Index" key="Machines/Machines/" />
+      <mvcSiteMapNode title="Komedie" area="WorkCenters" controller="WorkCenters" action="Index" key="Machines/WorkCenters/" />
+      <mvcSiteMapNode title="Horrory" area="WorkCenters" controller="Departments" action="Index" key="Machines/Departments/" />
+      <mvcSiteMapNode title="Kreminały" area="WorkCenters" controller="MachineGroups" action="Index" key="Machines/MachineGroups/" />
+    </mvcSiteMapNode>
+
+    <mvcSiteMapNode title="Zlecenia" clickable="false" imageUrl="fa-list-alt" visibilityProvider="MvcSiteMapProvider.TrimEmptyGroupingNodesVisibilityProvider, MvcSiteMapProvider">
+      <mvcSiteMapNode title="Kartoteka zleceń" area="WorkOrders" controller="WorkOrders" action="Index" key="WorkOrders/WorkOrders/"/>
+      <mvcSiteMapNode title="Kartoteka indeksów" area="WorkOrders" controller="Parts" action="Index" key="WorkOrders/Parts/" />
+      <mvcSiteMapNode title="Przegląd operacji" area="WorkOrders" controller="Routing" action="Index" key="WorkOrders/Routing/" />
+      <mvcSiteMapNode title="Statusy zleceń roboczych" area="Statuses" controller="WorkOrderStatus" action="Index" key="Statuses/WorkOrderStatus/" />
+      <mvcSiteMapNode title="Statusy technologii" area="Statuses" controller="RoutingStatus" action="Index" key="Statuses/RoutingStatus/" />
+      <!--<mvcSiteMapNode title="Kartoteka harmonogramów PS" area="WorkOrders" controller="RepetitiveSchedules" action="Index" />
+          <mvcSiteMapNode title="Szablony technologii" area="WorkOrders" controller="TechnologyTemplates" action="Index" />
+          <mvcSiteMapNode title="Atrybuty" area="WorkOrders" controller="PartAttributes" action="Index" />
+          <mvcSiteMapNode title="Zestawy atrybutów" area="WorkOrders" controller="PartAttributeSets" action="Index" />-->
+    <!--</mvcSiteMapNode>-->
+
   </mvcSiteMapNode>
-
-
-    <!--<mvcSiteMapNode title="Home" controller="Home" action="Index">
-    <mvcSiteMapNode title="About" controller="Home" action="About"/>
-    <mvcSiteMapNode title="Contact Us" controller="Home" action="Contact"/>
-
-
-        <mvcSiteMapNode title="Kartoteka maszyn" area="WorkCenters" controller="Machines" action="Index" key="Machines/Machines/" />
-        <mvcSiteMapNode title="Kartoteka gniazd" area="WorkCenters" controller="WorkCenters" action="Index" key="Machines/WorkCenters/" />
-        <mvcSiteMapNode title="Kartoteka wydziałów" area="WorkCenters" controller="Departments" action="Index" key="Machines/Departments/" />
-
-  </mvcSiteMapNode>-->
-
 </mvcSiteMap>
