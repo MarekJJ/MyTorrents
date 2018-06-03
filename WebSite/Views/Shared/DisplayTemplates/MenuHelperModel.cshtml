@@ -19,6 +19,16 @@
                             @foreach (var child in nodesGroup.Children)
                             {
                                 <li>@Html.DisplayFor(m => child)</li>
+
+                                @*if(child.Children.Count > 0)    // tu próbowałem robić jeszcze zagieżdzone ale chyba to oleję
+                                {
+                                <ol class="nav child_menu">
+                                    @foreach (var secondChild in child.Children)
+                                    {
+                                        <li>@Html.DisplayFor(m => secondChild.Description)</li>
+                                    }
+                                </ol>
+                                }*@
                             }
                         </ul>
                     </li>

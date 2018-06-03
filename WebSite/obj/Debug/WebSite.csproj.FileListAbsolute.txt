@@ -141,3 +141,9 @@ C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\TOR.Resorces.pdb
 C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\TOR.Services.pdb
 C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\pl-PL\TOR.Resorces.resources.dll
 C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\obj\Debug\WebSite.csprojResolveAssemblyReference.cache
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\AutoMapper.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\EntityFramework.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\EntityFramework.SqlServer.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\AutoMapper.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\EntityFramework.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\WebSite\bin\EntityFramework.SqlServer.xml

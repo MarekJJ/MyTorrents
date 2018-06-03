@@ -13,9 +13,8 @@
     "./Content/vendor/ngprogress/ngProgress.css",
     "./Content/vendor/angular-ivh-treeview/ivh-treeview.css",
     "./Content/vendor/angular-ivh-treeview/ivh-treeview-theme-basic.css",
-    "./Content/vendor/angular-bootstrap-colorpicker/css/colorpicker.css",
-    "./Content/DSRToolkit/Core/Styles/Common/Common.css",
-    "./Content/Styles/CustomStyles.css"
+    "./Content/vendor/angular-bootstrap-colorpicker/css/colorpicker.css"
+
   ],
 
   "main-Js": [
@@ -50,7 +49,7 @@
     "./Content/vendor/angular-ivh-treeview/ivh-treeview.js",
     "./Content/vendor/angular-click-outside/clickoutside.directive.js",
     "./Content/vendor/angular-bootstrap-colorpicker/js/bootstrap-colorpicker-module.js",
-    "./Content/vendor/angular-local-storage/angular-local-storage.js",
-    "./Areas/PowerBiComponents/Scripts/powerbi.js"
+    "./Content/vendor/angular-local-storage/angular-local-storage.js"
+
   ]
 }

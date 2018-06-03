@@ -2,3 +2,12 @@ C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Services\bin\Debug\TOR.Services.
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Services\bin\Debug\TOR.Services.pdb
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Services\obj\Debug\TOR.Services.dll
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Services\obj\Debug\TOR.Services.pdb
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Services\bin\Debug\TOR.Services.dll.config
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Services\bin\Debug\AutoMapper.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Services\bin\Debug\EntityFramework.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Services\bin\Debug\AutoMapper.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Services\bin\Debug\EntityFramework.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Services\bin\Debug\Newtonsoft.Json.xml

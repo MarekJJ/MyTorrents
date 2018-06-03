@@ -2,3 +2,4 @@ C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Configuration\bin\Debug\TOR.Conf
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Configuration\bin\Debug\TOR.Configuration.pdb
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Configuration\obj\Debug\TOR.Configuration.dll
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Configuration\obj\Debug\TOR.Configuration.pdb
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Configuration\obj\Debug\TOR.Configuration.csprojResolveAssemblyReference.cache

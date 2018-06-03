@@ -2,3 +2,17 @@ C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\TOR.DataAcc
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\TOR.DataAccess.pdb
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\obj\Debug\TOR.DataAccess.dll
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\obj\Debug\TOR.DataAccess.pdb
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\obj\Debug\TOR.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\TOR.DataAccess.dll.config
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\AutoMapper.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\AutoMapper.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\TOR.Core.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\TOR.Infastructure.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\TOR.Core.pdb
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.DataAccess\bin\Debug\TOR.Infastructure.pdb

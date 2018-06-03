@@ -95,3 +95,6 @@ C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Resorces\obj\Debug\TOR.Resources
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Resorces\obj\Debug\pl-PL\TOR.Resorces.resources.dll
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Resorces\obj\Debug\TOR.Resorces.dll
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Resorces\obj\Debug\TOR.Resorces.pdb
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Resorces\bin\Debug\Newtonsoft.Json.dll
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Resorces\bin\Debug\Newtonsoft.Json.xml
+C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Resorces\obj\Debug\TOR.Resources.csprojResolveAssemblyReference.cache
