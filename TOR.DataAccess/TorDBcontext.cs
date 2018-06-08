@@ -24,7 +24,7 @@ namespace TOR.DataAccess
         {
             modelBuilder.Configurations.AddFromAssembly(Assembly.GetExecutingAssembly());
             //modelBuilder.Configurations.Add(new SiteConfiguration());
-            modelBuilder.Configurations.ManagementEntities(); // rejestruje encje dla migracji chyba
+            //modelBuilder.Configurations.ManagementEntities(); // rejestruje encje dla migracji, jest już jeden w MangmentEntityConfiguratin
             //modelBuilder.Configurations.RegisterDSRToolkitApiEntities();
 
             modelBuilder.Properties<DateTime>().Configure(c => c.HasColumnType("datetime2"));

@@ -3,13 +3,13 @@ using TOR.DataAccess.EntitisConfigurations;
 
 namespace TOR.DataAccess
 {
-   public static class ManagementEntityConfiguration
+    public static class ManagementEntityConfiguration
     {
         public static void ManagementEntities(this ConfigurationRegistrar configurationRegistrar)
         {
-            configurationRegistrar.Add(new MainDataConfigurations());
+            configurationRegistrar.Add(new MainDataConfigurations());// rejestruje encje dla migracji
 
         }
     }
-   
+
 }

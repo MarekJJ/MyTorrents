@@ -60,6 +60,9 @@
   <ItemGroup>
     <Compile Include="Entitis\Entity.cs" />
     <Compile Include="Entitis\MainData.cs" />
+    <Compile Include="Entitis\Status.cs" />
+    <Compile Include="Entitis\SubType.cs" />
+    <Compile Include="Entitis\Type.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

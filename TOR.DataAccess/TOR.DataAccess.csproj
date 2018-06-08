@@ -50,6 +50,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -59,7 +60,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntitisConfigurations\MainDataConfigurations.cs" />
+    <Compile Include="EntitisConfigurations\SubTypeConfiguration.cs" />
+    <Compile Include="EntitisConfigurations\TypeConfiguration.cs" />
     <Compile Include="ManagementEntityConfiguration.cs" />
+    <Compile Include="Migrations\201806041340324_initial.cs" />
+    <Compile Include="Migrations\201806041340324_initial.Designer.cs">
+      <DependentUpon>201806041340324_initial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="TorDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +84,11 @@
       <Project>{e4378139-bb1a-4ed0-825a-345d6dabd953}</Project>
       <Name>TOR.Infastructure</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201806041340324_initial.resx">
+      <DependentUpon>201806041340324_initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
