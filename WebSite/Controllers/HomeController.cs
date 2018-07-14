@@ -1,8 +1,9 @@
 ﻿using System.Data.Entity;
+using System.Linq;
 using System.Web.Mvc;
 using MvcSiteMapProvider.Linq;
 using TOR.Core.Entitis;
-using System.Linq;
+using TOR.Services.JsonSerialization;
 
 
 namespace WebSite.Controllers
@@ -18,12 +19,12 @@ namespace WebSite.Controllers
         // GET: Home
         public ActionResult About()
         {
-            //var p = dbContext.Set<Status>().Where(x => x.Code == "bb").ToList();
 
-            //var activities = dbContext.Set<Status>()
-            //       .Where(x => x.Code != null)
-            //       .ToList();
-            return View();
+
+            var activities = dbContext.Set<Status>()
+                   .Where(x => x.Code != null)
+                   .ToList();
+            return View(); //activities.AsJsonResult();  
         }
 
         public ActionResult Contact(int? id)
