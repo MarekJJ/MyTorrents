@@ -1,14 +1,9 @@
-﻿
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.Entity.ModelConfiguration;
+﻿using System.Data.Entity.ModelConfiguration;
 using TOR.Core.Entitis;
 
 namespace TOR.DataAccess.EntitisConfigurations
 {
-   public class TypeConfiguration: EntityTypeConfiguration<Type>
+    public class TypeConfiguration : EntityTypeConfiguration<Type>
     {
         public TypeConfiguration()
         {
@@ -19,7 +14,7 @@ namespace TOR.DataAccess.EntitisConfigurations
             Property(x => x.Code).IsRequired();
 
             HasRequired(x => x.SubType).WithMany().HasForeignKey(x => x.SubTypeId);
-            HasMany(x => x.MainData).WithOptional(x => x.Type).HasForeignKey(x => x.TypeId);
+            // HasMany(x => x.MainData).WithOptional(x => x.Type).HasForeignKey(x => x.TypeId);
         }
     }
 }

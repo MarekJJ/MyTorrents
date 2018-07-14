@@ -8,7 +8,7 @@ namespace TOR.Core.Entitis
 
         public int SubTypeId { get; set; }
 
-        public SubType SubType { get; set; }
+        public virtual SubType SubType { get; set; }
 
         public virtual ICollection<MainData> MainData { get; set; } = new List<MainData>();
 

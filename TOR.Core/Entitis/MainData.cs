@@ -8,7 +8,7 @@ namespace TOR.Core.Entitis
 
         public DateTime Date { get; set; }
 
-        public string Torrent { get; set; }
+        public string Tor { get; set; }
 
         public int Likes { get; set; }
 
@@ -16,12 +16,16 @@ namespace TOR.Core.Entitis
 
         public string Desctiption { get; set; }
 
+        /// <summary>
+        /// ////////////////////
+        /// </summary>
+
         public int StatusId { get; set; }
 
-        public Status Status { get; set; }
+        public virtual Status Status { get; set; }
 
         public int TypeId { get; set; }
 
-        public Type Type { get; set; }
+        public virtual Type Type { get; set; }
     }
 }

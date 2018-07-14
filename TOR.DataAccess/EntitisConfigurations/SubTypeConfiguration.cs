@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity.ModelConfiguration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.Entity.ModelConfiguration;
 using TOR.Core.Entitis;
 
 namespace TOR.DataAccess.EntitisConfigurations
 {
-   public class SubTypeConfiguration : EntityTypeConfiguration<SubType>
+    public class SubTypeConfiguration : EntityTypeConfiguration<SubType>
     {
         public SubTypeConfiguration()
         {
@@ -18,7 +13,7 @@ namespace TOR.DataAccess.EntitisConfigurations
 
             Property(x => x.Code).IsRequired();
 
-            HasMany(x => x.Type).WithOptional(x => x.SubType).HasForeignKey(x => x.SubTypeId);
+            // HasMany(x => x.Type).WithOptional(x => x.SubType).HasForeignKey(x => x.SubTypeId);
         }
     }
 }
