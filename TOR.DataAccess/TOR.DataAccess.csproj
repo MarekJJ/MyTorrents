@@ -60,12 +60,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntitisConfigurations\MainDataConfigurations.cs" />
+    <Compile Include="EntitisConfigurations\StatusConfiguration.cs" />
     <Compile Include="EntitisConfigurations\SubTypeConfiguration.cs" />
     <Compile Include="EntitisConfigurations\TypeConfiguration.cs" />
     <Compile Include="ManagementEntityConfiguration.cs" />
-    <Compile Include="Migrations\201806041340324_initial.cs" />
-    <Compile Include="Migrations\201806041340324_initial.Designer.cs">
-      <DependentUpon>201806041340324_initial.cs</DependentUpon>
+    <Compile Include="Migrations\201807141926258_bjbjbbj.cs" />
+    <Compile Include="Migrations\201807141926258_bjbjbbj.Designer.cs">
+      <DependentUpon>201807141926258_bjbjbbj.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="TorDbContext.cs" />
@@ -86,8 +87,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201806041340324_initial.resx">
-      <DependentUpon>201806041340324_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201807141926258_bjbjbbj.resx">
+      <DependentUpon>201807141926258_bjbjbbj.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

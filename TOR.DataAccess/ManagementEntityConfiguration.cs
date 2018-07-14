@@ -7,7 +7,7 @@ namespace TOR.DataAccess
     {
         public static void ManagementEntities(this ConfigurationRegistrar configurationRegistrar)
         {
-            configurationRegistrar.Add(new MainDataConfiguration());// rejestruje encje dla migracji
+            configurationRegistrar.Add(new MainDataConfigurations());// rejestruje encje dla migracji
 
         }
     }
