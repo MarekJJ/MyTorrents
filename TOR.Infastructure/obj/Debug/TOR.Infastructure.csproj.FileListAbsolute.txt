@@ -11,4 +11,3 @@ C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Infastructure\bin\Debug\AutoMapp
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Infastructure\bin\Debug\EntityFramework.xml
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Infastructure\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Infastructure\bin\Debug\Newtonsoft.Json.xml
-C:\Users\maj\Source\Repos\moja apka\WebSite\TOR.Infastructure\obj\Debug\TOR.Infastructure.csprojResolveAssemblyReference.cache

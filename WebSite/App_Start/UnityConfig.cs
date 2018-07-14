@@ -1,6 +1,7 @@
 using System;
+using System.Data.Entity;
 using Microsoft.Practices.Unity;
-using Microsoft.Practices.Unity.Configuration;
+using TOR.DataAccess;
 
 namespace WebSite.App_Start
 {
@@ -28,7 +29,7 @@ namespace WebSite.App_Start
 
         /// <summary>Registers the type mappings with the Unity container.</summary>
         /// <param name="container">The unity container to configure.</param>
-        /// <remarks>There is no need to register concrete types such as controllers or API controllers (unless you want to 
+        /// <remarks>There is no need to register concrete types such as controllers or API controllers (unless you want to
         /// change the defaults), as Unity allows resolving a concrete type even if it was not previously registered.</remarks>
         public static void RegisterTypes(IUnityContainer container)
         {
@@ -37,6 +38,8 @@ namespace WebSite.App_Start
 
             // TODO: Register your types here
             // container.RegisterType<IProductRepository, ProductRepository>();
+
+            container.RegisterTypeWithDefaultConstructorPerRequest<DbContext, TorDbContext>();   //notka rejestracja
         }
     }
 }

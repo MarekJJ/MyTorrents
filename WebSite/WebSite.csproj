@@ -4306,6 +4306,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BowerBundlerHelper.cs" />
+    <Compile Include="App_Start\MvcUnityContainerExtensions.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="App_Start\UnityMvcActivator.cs" />
