@@ -6,7 +6,7 @@ namespace WebSite.Infrastructure.Helpers
 {
     public static class BundlesHelper
     {
-        public static MvcHtmlString CssBundle(this HtmlHelper helper, string bundleName)
+        public static MvcHtmlString CssBundle(this HtmlHelper helper, string bundleName) //notka to jest dla  @Html.CssBundle("layout-css")
         {
             var isDebug = false;
 

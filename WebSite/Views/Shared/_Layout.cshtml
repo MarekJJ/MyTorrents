@@ -1,7 +1,7 @@
 ﻿@*@using WebSite.Infrastructure.Helpers*@
 
 <!DOCTYPE html>
-<html>
+<html ng-app="torApp">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
     @Html.CssBundle("main-Css")
    @Html.CssBundle("layout-css")
 </head>
-<body ng-app="torApp" >
+<body>
     <div class="nav-md">
         <div class="container body" style="width:100%">
             <div class="main_container">
@@ -125,7 +125,7 @@
                         <div class="">
                             <div class="page-title">
                                 <div>
-                                    sssssssss
+                                    sssssssss{{2 + 2}}
                                     @RenderBody()
                                     sssssssss
                                 </div>
@@ -148,11 +148,33 @@
         @Html.JsBundle("layout-Js")
         @Html.JsBundle("list-Js")
 
-        <script type="text/javascript">
 
-
-
-            </script>
         </div>
+
+    <script type="text/javascript">
+
+        var myAppModule = angular.module('torApp',[]);
+
+            @*@(
+              Html.AngularModule("torApp")
+                  .WithDependantModules("ngAnimate", "ngMessages", "ui.scrollpoint", "ui.bootstrap", "ui.select", "ngSanitize", "toastr", "datatables", "datatables.bootstrap")
+                  .WithDependantModules("pascalprecht.translate", "ngFileUpload", "ae-datetimepicker", "dynamicNumber", "ngProgress")
+                  .WithDependantModules("sfcCommon", "sfcConfirmation", "sfcDataTables", "sfcLogin", "sfcTerminalCommon")
+                  .Generate()
+            )*@
+            @*angular.module('sfcCommon')
+                  .constant('BackendRootUrl', '@Url.Content("~/")')
+                  .constant('CurrentLanguage', '@language')
+                  .constant('Permissions', [])
+                  .constant('GlobalConfiguration', {
+                      dateFormat: 'YYYY-MM-DD',
+                      dateTimeFormat: 'YYYY-MM-DD HH:mm',
+                      isBreakButtonVisible: @Html.IsBreakButtonVisible(),
+                      isBrigadeButtonVisible: @Html.IsBrigadeButtonVisible(),
+                      isNonProductiveButtonVisible: @Html.IsNonProductiveButtonVisible()
+                  });*@
+
+
+    </script>
     </body>
 </html>
