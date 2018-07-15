@@ -59,5 +59,10 @@
   "layout-css": [
     "./Content/Styles/Layout/custom.css",
     "./Content/Styles/Layout/theme-black.css"
+  ],
+
+  "list-Js": [
+    "./Panel/stateProvider.module.js",
+    "./Panel/List/controllers/list.controller.js"
   ]
 }
