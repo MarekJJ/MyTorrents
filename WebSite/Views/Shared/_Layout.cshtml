@@ -3,18 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-    @*--------------------------------------boczny pasek--------------------------*@
-    <!-- Bootstrap -->
-    @*<link href="/Temp1/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">*@
-    <!-- Font Awesome -->
-    @*<link href="/Temp1/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">*@
-    <!-- NProgress -->
-    @*<link href="/Temp1/vendors/nprogress/nprogress.css" rel="stylesheet">*@
-    <!-- jQuery custom content scroller -->
-    @*<link href="/Temp1/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet" />*@ <!--tego nie mam w vendor-->
-    <!-- Custom Theme Style -->
-    <link href="/Temp1/build/css/custom.min.css" rel="stylesheet">  <!--kustomowe css-->
+    <link href="/Temp1/build/css/custom.min.css" rel="stylesheet">
     <link href="/Temp2/css/theme-black.css" rel="stylesheet">
     @*--------------------------------------boczny pasek--------------------------*@
 
@@ -35,8 +24,6 @@
                         <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>dupa </span></a>
                     </div>
                     <div class="clearfix"></div> @*clearfix robi tak że poprzednie css nie mają wpływu i obiekty wustawiają sie jeden pod drugim *@
-
-                    @Html.JsBundle("main-Js")
                     @Html.MvcSiteMap().Menu(showStartingNode: false)
                     @Html.MvcSiteMap().SiteMapPath()
                     </div >
@@ -158,42 +145,11 @@
 
 
 
-                        @*----------------boczny pasek-----------------------------*@
 
-                        <script src="/Temp1/build/js/custom.min.js"></script>
-                       @*-------------------boczny  pasek--------------------------*@
-
-                        @*-------------------------------wszystko z Joli Admin templates-------------*@
-                        <!-- START PRELOADS -->
-                        <audio id="audio-alert" src="/Temp2/audio/alert.mp3" preload="auto"></audio>
-                        <audio id="audio-fail" src="/Temp2/audio/fail.mp3" preload="auto"></audio>
-                        <!-- END PRELOADS -->
-                        <!-- START SCRIPTS -->
-                        <!-- START PLUGINS -->
-                        <script type="text/javascript" src="/Temp2/js/plugins/jquery/jquery.min.js"></script>
-                        <script type="text/javascript" src="/Temp2/js/plugins/jquery/jquery-ui.min.js"></script>
-                        <script type="text/javascript" src="/Temp2/js/plugins/bootstrap/bootstrap.min.js"></script>
-                        <!-- END PLUGINS -->
-                        <!-- START THIS PAGE PLUGINS-->
-                        <script type='text/javascript' src='/Temp2/js/plugins/icheck/icheck.min.js'></script>
-                        <script type="text/javascript" src="/Temp2/js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
-
-                        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
-                        <script type="text/javascript" src="/Temp2/js/plugins/blueimp/jquery.blueimp-gallery.min.js"></script>
-                        <script type="text/javascript" src="/Temp2/js/plugins/bootstrap/bootstrap-datepicker.js"></script>
-                        <script type="text/javascript" src="/Temp2/js/plugins/bootstrap/bootstrap-select.js"></script>
-                        <!-- END THIS PAGE PLUGINS-->
-                        <!-- START TEMPLATE -->
-                        @*<script type="text/javascript" src="/Temp2/js/settings.js"></script> kręcidelko z prawej strony *@
-
-                        <script type="text/javascript" src="/Temp2/js/plugins.js"></script>
-                        <script type="text/javascript" src="/Temp2/js/actions.js"></script>
-                        <script type="text/javascript" src="/Temp2/js/demo_maps.js"></script>
-                        <!-- END TEMPLATE -->
-
-
-            @*-------------------------------wszystko z Joli Admin templates-------------*@
                     </div>
                 </div>
+        @Html.JsBundle("main-Js")
+        @Html.JsBundle("layout-Js")
+
     </body>
 </html>
