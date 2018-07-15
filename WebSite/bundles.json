@@ -54,5 +54,10 @@
 
   "layout-Js": [
     "./Content/Scripts/Layout/SiteBarAnimatin/custom.js"
+  ],
+
+  "layout-css": [
+    "./Content/Styles/Layout/custom.css",
+    "./Content/Styles/Layout/theme-black.css"
   ]
 }

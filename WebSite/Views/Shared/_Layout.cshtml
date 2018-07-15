@@ -3,17 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="/Temp1/build/css/custom.min.css" rel="stylesheet">
-    <link href="/Temp2/css/theme-black.css" rel="stylesheet">
-    @*--------------------------------------boczny pasek--------------------------*@
-
-
-
-
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title></title>
     @Html.CssBundle("main-Css")
+    @Html.CssBundle("layout-css")
 </head>
 <body class="nav-md">
     <div class="container body" style="width:100%">
@@ -130,8 +124,10 @@
                         <div class="right_col" role="main" style="margin:0;">
                             <div class="">
                                 <div class="page-title">
-                                    <div  @*class="title_left"*@>
+                                    <div>
+                                        sssssssss
                                         @RenderBody()
+                                    sssssssss
                                     </div>
                                 </div>
                             </div>

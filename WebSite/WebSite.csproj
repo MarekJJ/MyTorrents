@@ -178,6 +178,9 @@
     <Content Include="Content\Scripts\Layout\SiteBarAnimatin\custom.js" />
     <Content Include="Content\Scripts\Layout\SiteBarAnimatin\custom.min.js" />
     <Content Include="Content\Styles\Common.css" />
+    <Content Include="Content\Styles\Layout\custom.css" />
+    <Content Include="Content\Styles\Layout\custom.min.css" />
+    <Content Include="Content\Styles\Layout\theme-black.css" />
     <Content Include="Content\Vendor\angular-animate\angular-animate.js" />
     <Content Include="Content\Vendor\angular-bootstrap-colorpicker\css\colorpicker.css" />
     <Content Include="Content\Vendor\angular-bootstrap-colorpicker\img\alpha.png" />
