@@ -63,6 +63,7 @@
 
   "list-Js": [
     "./Panel/stateProvider.module.js",
-    "./Panel/List/controllers/list.controller.js"
+    "./Panel/List/controllers/list.controller.js",
+    "./Panel/List/components/list.component.js"
   ]
 }

@@ -7,7 +7,7 @@ namespace WebSite.Infrastructure.Helpers
 {
     public static class AngularHelper
     {
-        public static AngularModuleFluentApi AngularModule(this HtmlHelper htmlHelper, string moduleName) //notka ten helper jest dla dołaczenia modułow w vidoku 
+        public static AngularModuleFluentApi AngularModule(this HtmlHelper htmlHelper, string moduleName) //notka ten helper jest dla dołaczenia modułow w vidoku
         {
             return new AngularModuleFluentApi(htmlHelper, moduleName);
         }

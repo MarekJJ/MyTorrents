@@ -1,7 +1,7 @@
 ﻿@*@using WebSite.Infrastructure.Helpers*@
 
 <!DOCTYPE html>
-<html ng-app="torApp">
+<html >
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
     @Html.CssBundle("main-Css")
    @Html.CssBundle("layout-css")
 </head>
-<body>
+<body ng-app="torApp">
     <div class="nav-md">
         <div class="container body" style="width:100%">
             <div class="main_container">
@@ -35,8 +35,8 @@
                                 <ul class="nav navbar-nav navbar-right">
                                     <li class="">
                                         <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                            <img src="images/img.jpg" alt="">John Doe
-                                            <span class=" fa fa-angle-down"></span>
+                                            <img src="" alt="">John Doe
+                                            <span class="fa fa-angle-down"></span>
                                         </a>
                                         <ul class="dropdown-menu dropdown-usermenu pull-right">
                                             <li><a href="javascript:;"> Profile</a></li>
@@ -59,7 +59,7 @@
                                         <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
                                             <li>
                                                 <a>
-                                                    <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                                    <span class="image"><img src="" alt="Profile Image" /></span>
                                                     <span>
                                                         <span>John Smith</span>
                                                         <span class="time">3 mins ago</span>
@@ -71,7 +71,7 @@
                                             </li>
                                             <li>
                                                 <a>
-                                                    <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                                    <span class="image"><img src="" alt="Profile Image" /></span>
                                                     <span>
                                                         <span>John Smith</span>
                                                         <span class="time">3 mins ago</span>
@@ -83,7 +83,7 @@
                                             </li>
                                             <li>
                                                 <a>
-                                                    <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                                    <span class="image"><img src="" alt="Profile Image" /></span>
                                                     <span>
                                                         <span>John Smith</span>
                                                         <span class="time">3 mins ago</span>
@@ -95,7 +95,7 @@
                                             </li>
                                             <li>
                                                 <a>
-                                                    <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                                    <span class="image"><img src="" alt="Profile Image" /></span>
                                                     <span>
                                                         <span>John Smith</span>
                                                         <span class="time">3 mins ago</span>
@@ -125,9 +125,10 @@
                         <div class="">
                             <div class="page-title">
                                 <div>
-                                    sssssssss{{2 + 2}}
+                                    sssssssss
                                     @RenderBody()
                                     sssssssss
+                                    <div ui-view="home">
                                 </div>
                             </div>
                         </div>
@@ -136,7 +137,7 @@
                 <!--------------główny wiok---------------------->
 
 
-
+                {{2222222222+333333333333}}
 
 
 
@@ -151,30 +152,37 @@
 
         </div>
 
+
+
     <script type="text/javascript">
+        @(
+        Html.AngularModule("torApp")
+            .WithDependantModules("ui.router", "ngAnimate", "ngMessages", "ui.scrollpoint", "ui.bootstrap", "ui.select", "ngSanitize", "toastr", "datatables", "datatables.bootstrap")
+            .WithDependantModules("pascalprecht.translate", "ngFileUpload", "ae-datetimepicker", "dynamicNumber", "ngProgress", "angular-click-outside", "LocalStorageModule")
 
-        var myAppModule = angular.module('torApp',[]);
+            .WithDependantModulesFromViewBag()
+            .Generate()
+        )
 
-            @*@(
-              Html.AngularModule("torApp")
-                  .WithDependantModules("ngAnimate", "ngMessages", "ui.scrollpoint", "ui.bootstrap", "ui.select", "ngSanitize", "toastr", "datatables", "datatables.bootstrap")
-                  .WithDependantModules("pascalprecht.translate", "ngFileUpload", "ae-datetimepicker", "dynamicNumber", "ngProgress")
-                  .WithDependantModules("sfcCommon", "sfcConfirmation", "sfcDataTables", "sfcLogin", "sfcTerminalCommon")
-                  .Generate()
-            )*@
-            @*angular.module('sfcCommon')
-                  .constant('BackendRootUrl', '@Url.Content("~/")')
-                  .constant('CurrentLanguage', '@language')
-                  .constant('Permissions', [])
-                  .constant('GlobalConfiguration', {
-                      dateFormat: 'YYYY-MM-DD',
-                      dateTimeFormat: 'YYYY-MM-DD HH:mm',
-                      isBreakButtonVisible: @Html.IsBreakButtonVisible(),
-                      isBrigadeButtonVisible: @Html.IsBrigadeButtonVisible(),
-                      isNonProductiveButtonVisible: @Html.IsNonProductiveButtonVisible()
-                  });*@
+        angular.module('torApp')
+              .constant('BackendRootUrl', '@Url.Content("~/")')
+              .constant('CurrentLanguage', 'pl')
+              .constant('Permissions', [])
 
-
+        @*angular.module('sfcCommon')
+                .constant('BackendRootUrl', '@Url.Content("~/")')
+                .constant('CurrentLanguage', '@language')
+                .constant('Permissions', [])
+                .constant('GlobalConfiguration', {
+                    dateFormat: 'YYYY-MM-DD',
+                    dateTimeFormat: 'YYYY-MM-DD HH:mm',
+                    isRegisteringQtyAllowed: @Html.IsRegisteringQtyAllowed(),
+                    idleTimoutInSeconds: @Html.GetIdleTimeoutInSeconds(),
+                    isBreakButtonVisible: @Html.IsBreakButtonVisible(),
+                    isCloseActivityButtonVisible: @Html.IsCloseActivityButtonVisible(),
+                    barCodeSeparator: @Html.GetBarCodeSeparator()
+                });*@
     </script>
+
     </body>
 </html>

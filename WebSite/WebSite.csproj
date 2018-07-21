@@ -260,7 +260,9 @@
     <Content Include="Content\Styles\Common.less" />
     <Content Include="Content\Styles\_tables.less" />
     <Content Include="Content\Styles\_sideBarMenu.less" />
+    <Content Include="Panel\List\components\list.component.js" />
     <Content Include="Panel\List\controllers\list.controller.js" />
+    <Content Include="Panel\registration.module.js" />
     <Content Include="Panel\List\templates\list.html" />
     <Content Include="Panel\stateProvider.module.js" />
     <Content Include="Web.config" />

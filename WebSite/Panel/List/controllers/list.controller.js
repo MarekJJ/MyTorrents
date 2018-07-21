@@ -1,6 +1,7 @@
-﻿myAppModule
-    .controller('list',
-    function () {
+﻿//angular
+//    .module('torApp')
+//        .controller('listController',
+//        function () {
 
-        debugger
-    });
+//            debugger
+//        });

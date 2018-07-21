@@ -1,28 +1,19 @@
-﻿myAppModule
-        .config(['DefaultModuleStateProvider', '$stateProvider', function ($stateProvider, DefaultModuleStateProvider) {
-debugger
-        $stateProvider.state({
-            name: 'list',
-            url: '/list/',
-            //params: { 'id': '' },
-            templateUrl: '/Panel/List/templates/list.html',
-            controller: 'list as $ctrl',
-            clearHistory: true
-        });
-
-        //$stateProvider.state({
-        //    name: 'myActivities',
-        //    url: '/myActivities/',
-        //    params: { 'id': '' },
-        //    templateUrl: '/Panel/Machines/templates/machinesList.html',
-        //    controller: 'MachinesListController as $ctrl',
-        //    clearHistory: true
-        //});
+﻿
 
 
 
 
+angular
+  .module('torApp', ['ui.router'])
+        .config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
 
-       // $urlRouterProvider.otherwise('/myActivities/');
+            console.log('!!!!!!!!!!!!!!!!!');
+            $stateProvider.state("home", {
+                url: '/home',
+                template: "<h1>HELLO!</h1>"
+            })
+            $urlRouterProvider.otherwise('/home');
+        }]);
+//console.log('blbl', angular.module)
 
-    }])
+
